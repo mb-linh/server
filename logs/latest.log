@@ -1,198 +1,21 @@
-[19:41:53] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.10
-[19:41:53] [main/INFO]: Loading 87 mods:
-	- c2me 0.3.1.2+rc.1.0+1.21.4
-	   |-- c2me-base 0.3.1.2+rc.1.0+1.21.4
-	   |-- c2me-client-uncapvd 0.3.1.2+rc.1.0+1.21.4
-	   |-- c2me-fixes-chunkio-threading-issues 0.3.1.2+rc.1.0+1.21.4
-	   |-- c2me-fixes-general-threading-issues 0.3.1.2+rc.1.0+1.21.4
-	   |-- c2me-fixes-worldgen-threading-issues 0.3.1.2+rc.1.0+1.21.4
-	   |-- c2me-fixes-worldgen-vanilla-bugs 0.3.1.2+rc.1.0+1.21.4
-	   |-- c2me-notickvd 0.3.1.2+rc.1.0+1.21.4
-	   |-- c2me-opts-allocs 0.3.1.2+rc.1.0+1.21.4
-	   |-- c2me-opts-chunkio 0.3.1.2+rc.1.0+1.21.4
-	   |-- c2me-opts-dfc 0.3.1.2+rc.1.0+1.21.4
-	   |-- c2me-opts-math 0.3.1.2+rc.1.0+1.21.4
-	   |-- c2me-opts-natives-math 0.3.1.2+rc.1.0+1.21.4
-	   |-- c2me-opts-scheduling 0.3.1.2+rc.1.0+1.21.4
-	   |-- c2me-opts-worldgen-general 0.3.1.2+rc.1.0+1.21.4
-	   |-- c2me-opts-worldgen-vanilla 0.3.1.2+rc.1.0+1.21.4
-	   |-- c2me-rewrites-chunk-serializer 0.3.1.2+rc.1.0+1.21.4
-	   |-- c2me-rewrites-chunk-system 0.3.1.2+rc.1.0+1.21.4
-	   |-- c2me-rewrites-chunkio 0.3.1.2+rc.1.0+1.21.4
-	   |-- c2me-server-utils 0.3.1.2+rc.1.0+1.21.4
-	   |-- c2me-threading-lighting 0.3.1.2+rc.1.0+1.21.4
-	   |-- com_electronwill_night-config_core 3.6.5
-	   |-- com_electronwill_night-config_toml 3.6.5
-	   |-- com_ibm_async_asyncutil 0.1.0
-	   |-- io_reactivex_rxjava3_rxjava 3.1.8
-	   |-- mixinsquared 0.2.0-beta.6
-	   |-- net_objecthunter_exp4j 0.4.8
-	   |-- org_jctools_jctools-core 4.0.5
-	   \-- org_reactivestreams_reactive-streams 1.0.4
-	- cristellib 2.0.2
-	   \-- blue_endless_jankson 1.2.3
-	- explorify 1.6.2
-	- fabric-api 0.118.0+1.21.4
-	   |-- fabric-api-base 0.4.54+b47eab6b04
-	   |-- fabric-api-lookup-api-v1 1.6.86+b1caf1e904
-	   |-- fabric-biome-api-v1 15.0.6+b1c29d8e04
-	   |-- fabric-block-api-v1 1.0.31+7feeb73304
-	   |-- fabric-block-view-api-v2 1.0.19+7feeb73304
-	   |-- fabric-blockrenderlayer-v1 2.0.8+7feeb73304
-	   |-- fabric-client-tags-api-v1 1.1.29+20ea1e2304
-	   |-- fabric-command-api-v1 1.2.62+f71b366f04
-	   |-- fabric-command-api-v2 2.2.41+e496eb1504
-	   |-- fabric-commands-v0 0.2.79+df3654b304
-	   |-- fabric-content-registries-v0 9.1.19+25d1a67604
-	   |-- fabric-convention-tags-v1 2.1.17+7f945d5b04
-	   |-- fabric-convention-tags-v2 2.13.0+360374ac04
-	   |-- fabric-crash-report-info-v1 0.3.6+7feeb73304
-	   |-- fabric-data-attachment-api-v1 1.6.0+4e7c604904
-	   |-- fabric-data-generation-api-v1 22.2.12+60b6f1b704
-	   |-- fabric-dimensions-v1 4.0.10+7feeb73304
-	   |-- fabric-entity-events-v1 2.0.14+da99546b04
-	   |-- fabric-events-interaction-v0 4.0.3+a4eebcf004
-	   |-- fabric-game-rule-api-v1 1.0.63+7d48d43904
-	   |-- fabric-item-api-v1 11.3.0+ee91fa1f04
-	   |-- fabric-item-group-api-v1 4.2.2+fcb9601404
-	   |-- fabric-key-binding-api-v1 1.0.57+7d48d43904
-	   |-- fabric-keybindings-v0 0.2.55+df3654b304
-	   |-- fabric-lifecycle-events-v1 2.5.4+bf2a60eb04
-	   |-- fabric-loot-api-v2 3.0.38+3f89f5a504
-	   |-- fabric-loot-api-v3 1.0.26+203e6b2304
-	   |-- fabric-message-api-v1 6.0.25+7feeb73304
-	   |-- fabric-model-loading-api-v1 4.3.0+ae23723504
-	   |-- fabric-networking-api-v1 4.3.10+8998135104
-	   |-- fabric-object-builder-api-v1 18.0.13+7d48d43904
-	   |-- fabric-particles-v1 4.0.14+7feeb73304
-	   |-- fabric-recipe-api-v1 8.1.0+640e77ae04
-	   |-- fabric-registry-sync-v0 6.1.9+360374ac04
-	   |-- fabric-renderer-api-v1 5.0.3+50f0feb204
-	   |-- fabric-renderer-indigo 2.0.3+50f0feb204
-	   |-- fabric-rendering-data-attachment-v1 0.3.57+73761d2e04
-	   |-- fabric-rendering-fluids-v1 3.1.19+7feeb73304
-	   |-- fabric-rendering-v1 10.2.1+0d31b09f04
-	   |-- fabric-resource-conditions-api-v1 5.0.13+203e6b2304
-	   |-- fabric-resource-loader-v0 3.1.1+360374ac04
-	   |-- fabric-screen-api-v1 2.0.38+7feeb73304
-	   |-- fabric-screen-handler-api-v1 1.3.116+7feeb73304
-	   |-- fabric-sound-api-v1 1.0.32+7feeb73304
-	   |-- fabric-tag-api-v1 1.0.7+7d48d43904
-	   |-- fabric-transfer-api-v1 5.4.9+efa825c904
-	   \-- fabric-transitive-access-wideners-v1 6.3.2+56e78b9b04
-	- fabricloader 0.16.10
-	   \-- mixinextras 0.4.1
-	- ferritecore 7.1.1
-	- java 23
-	- krypton 0.2.8
-	   \-- com_velocitypowered_velocity-native 3.3.0-SNAPSHOT
-	- ksyxis 1.3.3
-	- lithium 0.14.8+mc1.21.4
-	- minecraft 1.21.4
-	- modernfix 5.20.3+mc1.21.4
-	- mr_lithosphere 1.4
-	- noisium 2.5.0+mc1.21.4
-	- skinrestorer 2.2.1+1.21-fabric
-	   \-- org_mineskin_java-client 3.0.1-SNAPSHOT
-	- sparsestructures 2.2.1
-	- structory 1.3.9
-	- t_and_t 1.13.5
-	- terralith 2.5.8
-[19:41:53] [main/WARN]: Found 1 non-fabric mod:
-	- DHS-0.8.0_for_MC-1.21.4.jar
-[19:41:53] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/Users/mai_l2/Documents/server/fabric%201.21.4/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[19:41:53] [main/INFO]: Compatibility level set to JAVA_16
-[19:41:53] [main/INFO]: Compatibility level set to JAVA_17
-[19:41:53] [main/INFO]: Compatibility level set to JAVA_21
-[19:41:53] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[19:41:53] [main/INFO]: Global Executor Parallelism: 4 configured, 4 evaluated, 4 default evaluated
-[19:41:53] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[19:41:53] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[19:41:53] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[19:41:53] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[19:41:53] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[19:41:53] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[19:41:53] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[19:41:53] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
-[19:41:53] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[19:41:53] [main/INFO]: Initializing com.ishland.c2me.opts.natives_math.mixin
-[19:41:53] [main/WARN]: Cannot find native library osx-aarch_64-libc2me-opts-natives-math.dylib, possibly unsupported platform for native acceleration
-[19:41:53] [main/INFO]: Disabling com.ishland.c2me.opts.natives_math.mixin
-[19:41:53] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[19:41:53] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[19:41:53] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[19:41:53] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[19:41:53] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[19:41:53] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
-[19:41:53] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[19:41:53] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[19:41:53] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[19:41:53] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
-[19:41:53] [main/INFO]: Loaded configuration file for Lithium: 147 options available, 1 override(s) found
-[19:41:53] [main/INFO]: Loaded configuration file for ModernFix 5.20.3+mc1.21.4: 54 options available, 4 override(s) found
-[19:41:53] [main/WARN]: Option 'mixin.bugfix.paper_chunk_patches' overriden (by mods [c2me]) to 'false'
-[19:41:53] [main/WARN]: Option 'mixin.perf.cache_strongholds' overriden (by mods [c2me]) to 'false'
-[19:41:53] [main/WARN]: Option 'mixin.perf.nbt_memory_usage' overriden (by mods [c2me]) to 'false'
-[19:41:53] [main/WARN]: Option 'mixin.bugfix.chunk_deadlock' overriden (by mods [c2me]) to 'false'
-[19:41:53] [main/INFO]: Applying Nashorn fix
-[19:41:53] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
-[19:41:54] [main/INFO]: Force-enabling mixin 'compat.transfer_api.TransferApiHelperMixin' as rule 'mixin.compat.transfer_api' (added by mods [lithium]) enables it
-[19:41:54] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[19:41:55] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by net.caffeinemc.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
-[19:41:57] [main/ERROR]: Mod with id explorify only has an old path for subPath data/cristellib/structure_config. New Path for Cristel Lib >=2.0.1 is missing! Maybe contact the mod author to let them know.
-[19:41:57] [main/INFO]: Vanilla bootstrap took 2199 milliseconds
-[19:41:57] [main/INFO]: Compression will use libdeflate (macOS ARM64 / Apple Silicon), encryption will use native (macOS ARM64 / Apple Silicon)
-[19:41:57] [main/INFO]: Ksyxis: Booting... (platform: Fabric, manual: false)
-[19:41:57] [main/INFO]: Ksyxis: Found Mixin library. (version: 0.8.7)
-[19:41:57] [main/INFO]: Ksyxis: Ready. As always, this mod will speed up your world loading and might or might not break it. (1 ms)
-[19:41:57] [main/INFO]: Loading Noisium.
-[19:41:57] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
-[19:41:57] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[19:41:58] [main/WARN]: Creating a MIN function between two non-overlapping inputs: class_7051[function=Direct{class_6923[value=0.15]}] and class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6923[value=1.435]}], argument2=class_7051[function=Direct{class_6917[type=ADD, argument1=class_7051[function=Direct{class_6923[value=-0.73]}], argument2=class_7051[function=Direct{class_6925[type=ABS, input=class_7051[function=Reference{ResourceKey[minecraft:worldgen/density_function / minecraft:overworld/ridges]=class_6927[type=FlatCache, wrapped=class_7051[function=Direct{class_6927[type=Cache2D, wrapped=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6917[type=ADD, argument1=class_7051[function=Direct{class_6927[type=FlatCache, wrapped=class_7051[function=Direct{class_6927[type=Cache2D, wrapped=class_7051[function=Reference{ResourceKey[minecraft:worldgen/density_function / lithosphere:topography_final]=null}]]}]]}], argument2=class_7051[function=Direct{class_6923[value=0.6]}], minValue=-Infinity, maxValue=Infinity]}], argument2=class_7051[function=Direct{class_6923[value=0.9]}], minValue=-Infinity, maxValue=Infinity]}], argument2=class_7051[function=Direct{class_6923[value=0.75]}], minValue=-Infinity, maxValue=Infinity]}], locations=[F@71f5b493, values=[class_6494[value=0.0], class_6494[value=0.05], class_6494[value=0.1], class_6494[value=0.15], class_6494[value=0.62], class_6494[value=0.63]], derivatives=[F@7699857, minValue=-0.0125, maxValue=0.6362549]]}], argument2=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6925[type=ABS, input=class_7051[function=Direct{class_6931[noise=class_7270[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / lithosphere:rivers]=class_5487[firstOctave=-11, amplitudes=[5.0, 3.0, 0.0, 3.0, 3.0, 1.0, 0.5, 0.5]]}, noise=null], xzScale=0.7, yScale=0.0]}], minValue=0.0, maxValue=2.0]}], locations=[F@34eb5d33, values=[class_6494[value=-1.0], class_6494[value=0.0], class_6494[value=0.0], class_6494[value=0.0], class_6494[value=1.0]], derivatives=[F@5a8387c9, minValue=-1.0, maxValue=1.0]]}], argument2=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6931[noise=class_7270[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / lithosphere:biome_variation]=class_5487[firstOctave=-9, amplitudes=[0.7, 0.6, 0.6, 0.7, 0.9, 0.9, 0.1, 0.1]]}, noise=null], xzScale=1.0, yScale=0.0]}], locations=[F@552ed915, values=[class_6494[value=-1.0], class_6494[value=1.0]], derivatives=[F@56e0e7d5, minValue=-1.0, maxValue=1.0]]}], minValue=-1.0, maxValue=1.0]}], minValue=-0.6362549066543579, maxValue=0.6362549066543579]}]]}]]}], minValue=0.0, maxValue=0.6362549066543579]}], minValue=-0.73, maxValue=-0.09374509334564207]}], minValue=-1.04755, maxValue=-0.13452420895099637]}]
-[19:41:58] [main/WARN]: Creating a MAX function between two non-overlapping inputs: class_7051[function=Direct{class_6923[value=-0.12]}] and class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6923[value=-1.45]}], argument2=class_7051[function=Direct{class_6917[type=ADD, argument1=class_7051[function=Direct{class_6923[value=-0.73]}], argument2=class_7051[function=Direct{class_6925[type=ABS, input=class_7051[function=Reference{ResourceKey[minecraft:worldgen/density_function / minecraft:overworld/ridges]=class_6927[type=FlatCache, wrapped=class_7051[function=Direct{class_6927[type=Cache2D, wrapped=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6917[type=ADD, argument1=class_7051[function=Direct{class_6927[type=FlatCache, wrapped=class_7051[function=Direct{class_6927[type=Cache2D, wrapped=class_7051[function=Reference{ResourceKey[minecraft:worldgen/density_function / lithosphere:topography_final]=null}]]}]]}], argument2=class_7051[function=Direct{class_6923[value=0.6]}], minValue=-Infinity, maxValue=Infinity]}], argument2=class_7051[function=Direct{class_6923[value=0.9]}], minValue=-Infinity, maxValue=Infinity]}], argument2=class_7051[function=Direct{class_6923[value=0.75]}], minValue=-Infinity, maxValue=Infinity]}], locations=[F@71f5b493, values=[class_6494[value=0.0], class_6494[value=0.05], class_6494[value=0.1], class_6494[value=0.15], class_6494[value=0.62], class_6494[value=0.63]], derivatives=[F@7699857, minValue=-0.0125, maxValue=0.6362549]]}], argument2=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6925[type=ABS, input=class_7051[function=Direct{class_6931[noise=class_7270[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / lithosphere:rivers]=class_5487[firstOctave=-11, amplitudes=[5.0, 3.0, 0.0, 3.0, 3.0, 1.0, 0.5, 0.5]]}, noise=null], xzScale=0.7, yScale=0.0]}], minValue=0.0, maxValue=2.0]}], locations=[F@34eb5d33, values=[class_6494[value=-1.0], class_6494[value=0.0], class_6494[value=0.0], class_6494[value=0.0], class_6494[value=1.0]], derivatives=[F@5a8387c9, minValue=-1.0, maxValue=1.0]]}], argument2=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6931[noise=class_7270[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / lithosphere:biome_variation]=class_5487[firstOctave=-9, amplitudes=[0.7, 0.6, 0.6, 0.7, 0.9, 0.9, 0.1, 0.1]]}, noise=null], xzScale=1.0, yScale=0.0]}], locations=[F@552ed915, values=[class_6494[value=-1.0], class_6494[value=1.0]], derivatives=[F@56e0e7d5, minValue=-1.0, maxValue=1.0]]}], minValue=-1.0, maxValue=1.0]}], minValue=-0.6362549066543579, maxValue=0.6362549066543579]}]]}]]}], minValue=0.0, maxValue=0.6362549066543579]}], minValue=-0.73, maxValue=-0.09374509334564207]}], minValue=0.135930385351181, maxValue=1.0585]}]
-[19:41:58] [main/WARN]: Creating a MIN function between two non-overlapping inputs: class_7051[function=Direct{class_6923[value=0.15]}] and class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6923[value=-2.25]}], argument2=class_7051[function=Direct{class_6917[type=ADD, argument1=class_7051[function=Direct{class_6923[value=0.68]}], argument2=class_7051[function=Reference{ResourceKey[minecraft:worldgen/density_function / minecraft:overworld/ridges]=class_6927[type=FlatCache, wrapped=class_7051[function=Direct{class_6927[type=Cache2D, wrapped=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6917[type=ADD, argument1=class_7051[function=Direct{class_6927[type=FlatCache, wrapped=class_7051[function=Direct{class_6927[type=Cache2D, wrapped=class_7051[function=Reference{ResourceKey[minecraft:worldgen/density_function / lithosphere:topography_final]=null}]]}]]}], argument2=class_7051[function=Direct{class_6923[value=0.6]}], minValue=-Infinity, maxValue=Infinity]}], argument2=class_7051[function=Direct{class_6923[value=0.9]}], minValue=-Infinity, maxValue=Infinity]}], argument2=class_7051[function=Direct{class_6923[value=0.75]}], minValue=-Infinity, maxValue=Infinity]}], locations=[F@71f5b493, values=[class_6494[value=0.0], class_6494[value=0.05], class_6494[value=0.1], class_6494[value=0.15], class_6494[value=0.62], class_6494[value=0.63]], derivatives=[F@7699857, minValue=-0.0125, maxValue=0.6362549]]}], argument2=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6925[type=ABS, input=class_7051[function=Direct{class_6931[noise=class_7270[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / lithosphere:rivers]=class_5487[firstOctave=-11, amplitudes=[5.0, 3.0, 0.0, 3.0, 3.0, 1.0, 0.5, 0.5]]}, noise=null], xzScale=0.7, yScale=0.0]}], minValue=0.0, maxValue=2.0]}], locations=[F@34eb5d33, values=[class_6494[value=-1.0], class_6494[value=0.0], class_6494[value=0.0], class_6494[value=0.0], class_6494[value=1.0]], derivatives=[F@5a8387c9, minValue=-1.0, maxValue=1.0]]}], argument2=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6931[noise=class_7270[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / lithosphere:biome_variation]=class_5487[firstOctave=-9, amplitudes=[0.7, 0.6, 0.6, 0.7, 0.9, 0.9, 0.1, 0.1]]}, noise=null], xzScale=1.0, yScale=0.0]}], locations=[F@552ed915, values=[class_6494[value=-1.0], class_6494[value=1.0]], derivatives=[F@56e0e7d5, minValue=-1.0, maxValue=1.0]]}], minValue=-1.0, maxValue=1.0]}], minValue=-0.6362549066543579, maxValue=0.6362549066543579]}]]}]]}], minValue=0.04374509334564214, maxValue=1.316254906654358]}], minValue=-2.9615735399723055, maxValue=-0.09842646002769481]}]
-[19:41:58] [main/WARN]: Creating a MAX function between two non-overlapping inputs: class_7051[function=Direct{class_6923[value=-0.12]}] and class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6923[value=1.2]}], argument2=class_7051[function=Direct{class_6917[type=ADD, argument1=class_7051[function=Direct{class_6923[value=0.72]}], argument2=class_7051[function=Reference{ResourceKey[minecraft:worldgen/density_function / minecraft:overworld/ridges]=class_6927[type=FlatCache, wrapped=class_7051[function=Direct{class_6927[type=Cache2D, wrapped=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6917[type=ADD, argument1=class_7051[function=Direct{class_6927[type=FlatCache, wrapped=class_7051[function=Direct{class_6927[type=Cache2D, wrapped=class_7051[function=Reference{ResourceKey[minecraft:worldgen/density_function / lithosphere:topography_final]=null}]]}]]}], argument2=class_7051[function=Direct{class_6923[value=0.6]}], minValue=-Infinity, maxValue=Infinity]}], argument2=class_7051[function=Direct{class_6923[value=0.9]}], minValue=-Infinity, maxValue=Infinity]}], argument2=class_7051[function=Direct{class_6923[value=0.75]}], minValue=-Infinity, maxValue=Infinity]}], locations=[F@71f5b493, values=[class_6494[value=0.0], class_6494[value=0.05], class_6494[value=0.1], class_6494[value=0.15], class_6494[value=0.62], class_6494[value=0.63]], derivatives=[F@7699857, minValue=-0.0125, maxValue=0.6362549]]}], argument2=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6925[type=ABS, input=class_7051[function=Direct{class_6931[noise=class_7270[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / lithosphere:rivers]=class_5487[firstOctave=-11, amplitudes=[5.0, 3.0, 0.0, 3.0, 3.0, 1.0, 0.5, 0.5]]}, noise=null], xzScale=0.7, yScale=0.0]}], minValue=0.0, maxValue=2.0]}], locations=[F@34eb5d33, values=[class_6494[value=-1.0], class_6494[value=0.0], class_6494[value=0.0], class_6494[value=0.0], class_6494[value=1.0]], derivatives=[F@5a8387c9, minValue=-1.0, maxValue=1.0]]}], argument2=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6931[noise=class_7270[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / lithosphere:biome_variation]=class_5487[firstOctave=-9, amplitudes=[0.7, 0.6, 0.6, 0.7, 0.9, 0.9, 0.1, 0.1]]}, noise=null], xzScale=1.0, yScale=0.0]}], locations=[F@552ed915, values=[class_6494[value=-1.0], class_6494[value=1.0]], derivatives=[F@56e0e7d5, minValue=-1.0, maxValue=1.0]]}], minValue=-1.0, maxValue=1.0]}], minValue=-0.6362549066543579, maxValue=0.6362549066543579]}]]}]]}], minValue=0.08374509334564206, maxValue=1.3562549066543579]}], minValue=0.10049411201477047, maxValue=1.6275058879852293]}]
-[19:41:58] [main/INFO]: Loaded 1376 recipes
-[19:41:58] [main/INFO]: Loaded 1482 advancements
-[19:41:58] [main/INFO]: Applied 0 biome modifications to 0 of 160 new biomes in 1.677 ms
-[19:41:59] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[19:41:59] [Server thread/INFO]: Loading properties
-[19:41:59] [Server thread/INFO]: Default game type: SURVIVAL
-[19:41:59] [Server thread/INFO]: Generating keypair
-[19:41:59] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:41:59] [Server thread/INFO]: Using default channel type
-[19:41:59] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:41:59] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:41:59] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:41:59] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:41:59] [Server thread/INFO]: Preparing level "world"
-[19:41:59] [Server thread/INFO]: Enforcing safe world random access
-[19:42:01] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 1.836 s
-[19:42:01] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
-[19:42:02] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 16.67 ms
-[19:42:02] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 32.78 ms
-[19:42:02] [Server thread/INFO]: Ksyxis: Hey. This is Ksyxis. We will now load the world and will try to do it quickly. If the game is not responding after this, it's probably us to blame or delete for good. This message appears always, even if the mod works flawlessly. (modern)
-[19:42:02] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:42:02] [Server thread/INFO]: Time elapsed: 29 ms
-[19:42:02] [Server thread/INFO]: Done (2.672s)! For help, type "help"
-[19:42:02] [Server thread/WARN]: Dedicated server took 9.201 seconds to load
-[19:42:05] [Server thread/INFO]: Stopping the server
-[19:42:05] [Server thread/INFO]: Stopping server
-[19:42:05] [Server thread/INFO]: Saving players
-[19:42:05] [Server thread/INFO]: Saving worlds
-[19:42:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[19:42:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[19:42:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[19:42:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[19:42:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19:42:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19:42:05] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[19:42:05] [C2ME Storage #3/INFO]: Storage thread Thread[#79,C2ME Storage #3,8,main] stopped
-[19:42:05] [C2ME Storage #2/INFO]: Storage thread Thread[#78,C2ME Storage #2,8,main] stopped
-[19:42:05] [C2ME Storage #1/INFO]: Storage thread Thread[#77,C2ME Storage #1,8,main] stopped
-[19:42:05] [C2ME Storage #6/INFO]: Storage thread Thread[#84,C2ME Storage #6,8,main] stopped
-[19:42:05] [C2ME Storage #5/INFO]: Storage thread Thread[#83,C2ME Storage #5,8,main] stopped
-[19:42:05] [C2ME Storage #4/INFO]: Storage thread Thread[#82,C2ME Storage #4,8,main] stopped
-[19:42:05] [C2ME Storage #9/INFO]: Storage thread Thread[#88,C2ME Storage #9,8,main] stopped
-[19:42:05] [C2ME Storage #8/INFO]: Storage thread Thread[#87,C2ME Storage #8,8,main] stopped
-[19:42:05] [C2ME Storage #7/INFO]: Storage thread Thread[#86,C2ME Storage #7,8,main] stopped
+[22:42:17] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.10
+[22:42:17] [main/WARN]: Mod resolution failed
+[22:42:17] [main/INFO]: Immediate reason: [HARD_DEP_NO_CANDIDATE travelersbackpack 10.4.8 {depends cardinal-components-base @ [*]}, ROOT_FORCELOAD_SINGLE travelersbackpack 10.4.8]
+[22:42:17] [main/INFO]: Reason: [HARD_DEP travelersbackpack 10.4.8 {depends cardinal-components-base @ [*]}, HARD_DEP travelersbackpack 10.4.8 {depends cardinal-components-entity @ [*]}]
+[22:42:17] [main/INFO]: SERVER environment disabled: [c2me-client-uncapvd, fabric-model-loading-api-v1, fabric-renderer-api-v1, fabric-keybindings-v0, fabric-client-tags-api-v1, fabric-screen-api-v1, fabric-sound-api-v1, fabric-key-binding-api-v1, fabric-rendering-v1, fabric-renderer-indigo, fabric-blockrenderlayer-v1]
+[22:42:17] [main/INFO]: Fix: add [add:cardinal-components-base 1 ([(-∞,∞)]), add:cardinal-components-entity 1 ([(-∞,∞)])], remove [], replace []
+[22:42:17] [main/ERROR]: Incompatible mods found!
+net.fabricmc.loader.impl.FormattedException: Some of your mods are incompatible with the game or each other!
+A potential solution has been determined, this may resolve your problem:
+	 - Install cardinal-components-base, any version.
+	 - Install cardinal-components-entity, any version.
+More details:
+	 - Mod 'Traveler's Backpack' (travelersbackpack) 10.4.8 requires any version of cardinal-components-base, which is missing!
+	 - Mod 'Traveler's Backpack' (travelersbackpack) 10.4.8 requires any version of cardinal-components-entity, which is missing!
+	at net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:51) ~[fabric-loader-0.16.10.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:196) ~[fabric-loader-0.16.10.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:146) ~[fabric-loader-0.16.10.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68) [fabric-loader-0.16.10.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.10.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.10.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-mc.1.21.4-loader.0.16.10-launcher.1.0.1.jar:1.0.1]
