@@ -27,6 +27,7 @@
       "minecraft:birch_forest": "2025-03-09 03:00:41 -0400",
       "minecraft:old_growth_spruce_taiga": "2025-03-08 00:58:33 -0500",
       "minecraft:snowy_beach": "2025-03-09 01:46:13 -0500",
+      "minecraft:windswept_savanna": "2025-03-10 00:05:08 -0400",
       "minecraft:plains": "2025-03-08 00:44:46 -0500",
       "minecraft:deep_lukewarm_ocean": "2025-03-09 03:04:16 -0400"
     },
@@ -462,7 +463,8 @@
     "criteria": {
       "bread": "2025-03-08 01:25:39 -0500",
       "cooked_mutton": "2025-03-08 01:00:48 -0500",
-      "cooked_beef": "2025-03-08 01:19:24 -0500"
+      "cooked_beef": "2025-03-08 01:19:24 -0500",
+      "cooked_salmon": "2025-03-10 00:39:27 -0400"
     },
     "done": false
   },
@@ -956,8 +958,10 @@
     "criteria": {
       "minecraft:pillager": "2025-03-09 01:18:18 -0500",
       "minecraft:cave_spider": "2025-03-09 00:13:39 -0500",
+      "minecraft:skeleton": "2025-03-10 00:47:30 -0400",
       "minecraft:witch": "2025-03-08 19:21:42 -0500",
       "minecraft:spider": "2025-03-08 19:25:47 -0500",
+      "minecraft:zombie": "2025-03-10 01:08:15 -0400",
       "minecraft:creeper": "2025-03-09 00:13:11 -0500"
     },
     "done": false
@@ -2264,15 +2268,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/brown_banner": {
+  "minecraft:adventure/voluntary_exile": {
     "criteria": {
-      "has_brown_wool": "2025-03-09 03:26:57 -0400"
+      "voluntary_exile": "2025-03-09 01:18:18 -0500"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/brown_bed": {
+  "minecraft:recipes/food/suspicious_stew_from_azure_bluet": {
     "criteria": {
-      "has_brown_wool": "2025-03-09 03:26:57 -0400"
+      "has_azure_bluet": "2025-03-09 01:21:10 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_azure_bluet": {
+    "criteria": {
+      "has_azure_bluet": "2025-03-09 01:21:10 -0500"
     },
     "done": true
   },
@@ -2288,33 +2298,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/brown_carpet": {
-    "criteria": {
-      "has_brown_wool": "2025-03-09 03:26:57 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/bowl": {
-    "criteria": {
-      "has_mushroom_stew": "2025-03-09 03:27:31 -0400"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/misc/creeper": {
-    "criteria": {
-      "has_gunpowder": "2025-03-09 01:25:25 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/light_gray_bundle": {
     "criteria": {
       "has_light_gray_dye": "2025-03-09 01:21:14 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/coal": {
-    "criteria": {
-      "has_coal_block": "2025-03-09 03:17:34 -0400"
     },
     "done": true
   },
@@ -2324,9 +2310,39 @@
     },
     "done": true
   },
-  "minecraft:adventure/voluntary_exile": {
+  "minecraft:recipes/building_blocks/dye_light_gray_carpet": {
     "criteria": {
-      "voluntary_exile": "2025-03-09 01:18:18 -0500"
+      "has_needed_dye": "2025-03-09 01:21:14 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_light_gray_wool": {
+    "criteria": {
+      "has_needed_dye": "2025-03-09 01:21:14 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_candle": {
+    "criteria": {
+      "has_light_gray_dye": "2025-03-09 01:21:14 -0500"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/creeper": {
+    "criteria": {
+      "has_gunpowder": "2025-03-09 01:25:25 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2025-03-09 01:42:30 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2025-03-09 01:42:30 -0500"
     },
     "done": true
   },
@@ -2336,9 +2352,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/suspicious_stew_from_azure_bluet": {
+  "minecraft:recipes/misc/coal": {
     "criteria": {
-      "has_azure_bluet": "2025-03-09 01:21:10 -0500"
+      "has_coal_block": "2025-03-09 03:17:34 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli": {
+    "criteria": {
+      "has_lapis_block": "2025-03-09 03:19:01 -0400"
     },
     "done": true
   },
@@ -2360,45 +2382,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/paper": {
+  "travelersbackpack:recipes/misc/hay": {
     "criteria": {
-      "has_reeds": "2025-03-09 01:42:30 -0500"
+      "has_wheat": "2025-03-09 03:26:08 -0400"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dye_light_gray_carpet": {
+  "minecraft:recipes/decorations/brown_banner": {
     "criteria": {
-      "has_needed_dye": "2025-03-09 01:21:14 -0500"
+      "has_brown_wool": "2025-03-09 03:26:57 -0400"
     },
     "done": true
   },
-  "minecraft:recipes/misc/light_gray_dye_from_azure_bluet": {
+  "minecraft:recipes/decorations/brown_bed": {
     "criteria": {
-      "has_azure_bluet": "2025-03-09 01:21:10 -0500"
+      "has_brown_wool": "2025-03-09 03:26:57 -0400"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dye_light_gray_wool": {
+  "minecraft:recipes/decorations/brown_carpet": {
     "criteria": {
-      "has_needed_dye": "2025-03-09 01:21:14 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/sugar_from_sugar_cane": {
-    "criteria": {
-      "has_sugar_cane": "2025-03-09 01:42:30 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/lapis_lazuli": {
-    "criteria": {
-      "has_lapis_block": "2025-03-09 03:19:01 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/light_gray_candle": {
-    "criteria": {
-      "has_light_gray_dye": "2025-03-09 01:21:14 -0500"
+      "has_brown_wool": "2025-03-09 03:26:57 -0400"
     },
     "done": true
   },
@@ -2408,15 +2412,87 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_mushroom_stew": "2025-03-09 03:27:31 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/mushroom_stew": {
     "criteria": {
       "has_mushroom_stew": "2025-03-09 03:27:31 -0400"
     },
     "done": true
   },
-  "travelersbackpack:recipes/misc/hay": {
+  "minecraft:recipes/misc/white_dye": {
     "criteria": {
-      "has_wheat": "2025-03-09 03:26:08 -0400"
+      "has_bone_meal": "2025-03-10 00:29:26 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glass": {
+    "criteria": {
+      "has_smelts_to_glass": "2025-03-10 00:41:23 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-03-10 01:16:51 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2025-03-10 00:30:31 -0400"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/building_blocks/dye_white_sleeping_bag": {
+    "criteria": {
+      "has_needed_dye": "2025-03-10 00:29:27 -0400"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/pig_smithing": {
+    "criteria": {
+      "has_pig": "2025-03-10 00:47:30 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2025-03-10 01:12:45 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone": {
+    "criteria": {
+      "has_sand": "2025-03-10 00:41:23 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_oak_wood": {
+    "criteria": {
+      "has_log": "2025-03-10 01:16:51 -0400"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/cow": {
+    "criteria": {
+      "has_milk_bucket": "2025-03-10 00:57:55 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2025-03-10 00:30:31 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2025-03-10 00:29:26 -0400"
     },
     "done": true
   },
