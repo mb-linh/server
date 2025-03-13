@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "a25d6f1c-d0ab-39fe-a52f-f87171b55638",
+    "name": "mb_leo",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
