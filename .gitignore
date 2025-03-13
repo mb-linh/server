@@ -1,0 +1,6 @@
+# Ignore client mods folder
+clientMods/
+
+# OS generated files
+.DS_Store
+Thumbs.db
