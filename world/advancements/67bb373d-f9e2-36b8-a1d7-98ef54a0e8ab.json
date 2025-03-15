@@ -2543,6 +2543,7 @@
   },
   "repurposed_structures:villages": {
     "criteria": {
+      "in_village_birch": "2025-03-15 00:55:20 -0400",
       "in_village_oak": "2025-03-10 23:06:07 -0400"
     },
     "done": false
@@ -2824,75 +2825,15 @@
     },
     "done": true
   },
-  "vanilla_refresh:biome/snowlands": {
-    "criteria": {
-      "requirement": "2025-03-13 00:54:10 -0400"
-    },
-    "done": true
-  },
-  "vanilla_refresh:player/hurt": {
-    "criteria": {
-      "requirement": "2025-03-13 00:47:38 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/prismarine_wall_from_prismarine_stonecutting": {
-    "criteria": {
-      "has_prismarine": "2025-03-13 00:39:19 -0400"
-    },
-    "done": true
-  },
-  "vanilla_refresh:biome/ice_spikes": {
-    "criteria": {
-      "requirement": "2025-03-13 01:01:23 -0400"
-    },
-    "done": true
-  },
-  "vanilla_refresh:biome/terralith/yellowstone": {
-    "criteria": {
-      "requirement": "2025-03-12 23:51:50 -0400"
-    },
-    "done": true
-  },
-  "vanilla_refresh:biome/terralith/highland_forest": {
-    "criteria": {
-      "requirement": "2025-03-13 00:17:33 -0400"
-    },
-    "done": true
-  },
-  "vanilla_refresh:biome/snowy_plains": {
-    "criteria": {
-      "requirement": "2025-03-13 00:07:39 -0400"
-    },
-    "done": true
-  },
-  "vanilla_refresh:biome/jungle": {
-    "criteria": {
-      "requirement": "2025-03-12 23:36:35 -0400"
-    },
-    "done": true
-  },
   "vanilla_refresh:biome/desert": {
     "criteria": {
       "requirement": "2025-03-12 23:31:33 -0400"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/snow": {
+  "vanilla_refresh:biome/terralith/shrublands": {
     "criteria": {
-      "has_snowball": "2025-03-13 01:00:06 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/spruce_sign": {
-    "criteria": {
-      "has_planks": "2025-03-12 23:38:05 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/bricks": {
-    "criteria": {
-      "has_brick": "2025-03-13 00:01:55 -0400"
+      "requirement": "2025-03-12 23:33:50 -0400"
     },
     "done": true
   },
@@ -2902,45 +2843,9 @@
     },
     "done": true
   },
-  "vanilla_refresh:biome/terralith/shield": {
-    "criteria": {
-      "requirement": "2025-03-12 23:51:18 -0400"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/misc/snow": {
-    "criteria": {
-      "has_snowball": "2025-03-13 01:00:06 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/prismarine_wall": {
-    "criteria": {
-      "has_prismarine": "2025-03-13 00:39:19 -0400"
-    },
-    "done": true
-  },
-  "vanilla_refresh:biome/old_growth_pine_taiga": {
-    "criteria": {
-      "requirement": "2025-03-13 00:25:32 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/prismarine_slab_from_prismarine_stonecutting": {
-    "criteria": {
-      "has_prismarine": "2025-03-13 00:39:19 -0400"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/granite_wall_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2025-03-12 23:35:55 -0400"
-    },
-    "done": true
-  },
-  "vanilla_refresh:biome/plains": {
-    "criteria": {
-      "requirement": "2025-03-12 23:51:11 -0400"
     },
     "done": true
   },
@@ -2950,57 +2855,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/spruce_fence": {
-    "criteria": {
-      "has_planks": "2025-03-12 23:38:05 -0400"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/granite_slab": {
     "criteria": {
       "has_granite": "2025-03-12 23:35:55 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
-    "criteria": {
-      "has_moss_block": "2025-03-13 00:03:30 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/conduit": {
-    "criteria": {
-      "has_nautilus_shell": "2025-03-13 01:11:22 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/spruce_slab": {
-    "criteria": {
-      "has_planks": "2025-03-12 23:38:05 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/prismarine_stairs_from_prismarine_stonecutting": {
-    "criteria": {
-      "has_prismarine": "2025-03-13 00:39:19 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/decorated_pot_simple": {
-    "criteria": {
-      "has_brick": "2025-03-13 00:01:55 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/spruce_button": {
-    "criteria": {
-      "has_planks": "2025-03-12 23:38:05 -0400"
-    },
-    "done": true
-  },
-  "vanilla_refresh:biome/taiga": {
-    "criteria": {
-      "requirement": "2025-03-13 00:26:15 -0400"
     },
     "done": true
   },
@@ -3010,21 +2867,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/spruce_pressure_plate": {
-    "criteria": {
-      "has_planks": "2025-03-12 23:38:05 -0400"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/granite_stairs_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2025-03-12 23:35:55 -0400"
-    },
-    "done": true
-  },
-  "vanilla_refresh:biome/old_growth_spruce_taiga": {
-    "criteria": {
-      "requirement": "2025-03-12 23:43:40 -0400"
     },
     "done": true
   },
@@ -3040,21 +2885,51 @@
     },
     "done": true
   },
-  "vanilla_refresh:biome/terralith/shrublands": {
-    "criteria": {
-      "requirement": "2025-03-12 23:33:50 -0400"
-    },
-    "done": true
-  },
-  "vanilla_refresh:biome/ocean": {
-    "criteria": {
-      "requirement": "2025-03-13 00:34:52 -0400"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/polished_granite": {
     "criteria": {
       "has_granite": "2025-03-12 23:35:55 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-03-12 23:35:55 -0400"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/jungle": {
+    "criteria": {
+      "requirement": "2025-03-12 23:36:35 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_sign": {
+    "criteria": {
+      "has_planks": "2025-03-12 23:38:05 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_fence": {
+    "criteria": {
+      "has_planks": "2025-03-12 23:38:05 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_slab": {
+    "criteria": {
+      "has_planks": "2025-03-12 23:38:05 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_button": {
+    "criteria": {
+      "has_planks": "2025-03-12 23:38:05 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-03-12 23:38:05 -0400"
     },
     "done": true
   },
@@ -3076,9 +2951,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/prismarine_stairs": {
+  "minecraft:recipes/building_blocks/spruce_stairs": {
     "criteria": {
-      "has_prismarine": "2025-03-13 00:39:19 -0400"
+      "has_planks": "2025-03-12 23:38:05 -0400"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/old_growth_spruce_taiga": {
+    "criteria": {
+      "requirement": "2025-03-12 23:43:40 -0400"
     },
     "done": true
   },
@@ -3088,21 +2969,39 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/moss_carpet": {
+  "vanilla_refresh:biome/forest": {
     "criteria": {
-      "has_moss_block": "2025-03-13 00:03:30 -0400"
+      "requirement": "2025-03-12 23:50:35 -0400"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/sea_lantern": {
+  "vanilla_refresh:biome/plains": {
     "criteria": {
-      "has_prismarine_crystals": "2025-03-13 00:40:11 -0400"
+      "requirement": "2025-03-12 23:51:11 -0400"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/chiseled_deepslate": {
+  "vanilla_refresh:biome/terralith/shield": {
     "criteria": {
-      "has_cobbled_deepslate_slab": "2025-03-13 00:20:41 -0400"
+      "requirement": "2025-03-12 23:51:18 -0400"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/terralith/yellowstone": {
+    "criteria": {
+      "requirement": "2025-03-12 23:51:50 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bricks": {
+    "criteria": {
+      "has_brick": "2025-03-13 00:01:55 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/decorated_pot_simple": {
+    "criteria": {
+      "has_brick": "2025-03-13 00:01:55 -0400"
     },
     "done": true
   },
@@ -3112,33 +3011,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/prismarine_slab": {
+  "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
     "criteria": {
-      "has_prismarine": "2025-03-13 00:39:19 -0400"
+      "has_moss_block": "2025-03-13 00:03:30 -0400"
     },
     "done": true
   },
-  "vanilla_refresh:biome/forest": {
+  "minecraft:recipes/decorations/moss_carpet": {
     "criteria": {
-      "requirement": "2025-03-12 23:50:35 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/spruce_stairs": {
-    "criteria": {
-      "has_planks": "2025-03-12 23:38:05 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_granite_stairs_from_granite_stonecutting": {
-    "criteria": {
-      "has_granite": "2025-03-12 23:35:55 -0400"
-    },
-    "done": true
-  },
-  "vanilla_refresh:biome/terralith/siberian_taiga": {
-    "criteria": {
-      "requirement": "2025-03-13 00:50:43 -0400"
+      "has_moss_block": "2025-03-13 00:03:30 -0400"
     },
     "done": true
   },
@@ -3148,9 +3029,123 @@
     },
     "done": true
   },
+  "vanilla_refresh:biome/snowy_plains": {
+    "criteria": {
+      "requirement": "2025-03-13 00:07:39 -0400"
+    },
+    "done": true
+  },
   "vanilla_refresh:biome/snowy_taiga": {
     "criteria": {
       "requirement": "2025-03-13 00:08:02 -0400"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/terralith/highland_forest": {
+    "criteria": {
+      "requirement": "2025-03-13 00:17:33 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_deepslate": {
+    "criteria": {
+      "has_cobbled_deepslate_slab": "2025-03-13 00:20:41 -0400"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/old_growth_pine_taiga": {
+    "criteria": {
+      "requirement": "2025-03-13 00:25:32 -0400"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/taiga": {
+    "criteria": {
+      "requirement": "2025-03-13 00:26:15 -0400"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/birch_forest": {
+    "criteria": {
+      "requirement": "2025-03-13 00:28:24 -0400"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/ocean": {
+    "criteria": {
+      "requirement": "2025-03-13 00:34:52 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/prismarine_wall_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2025-03-13 00:39:19 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/prismarine_wall": {
+    "criteria": {
+      "has_prismarine": "2025-03-13 00:39:19 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2025-03-13 00:39:19 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2025-03-13 00:39:19 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_stairs": {
+    "criteria": {
+      "has_prismarine": "2025-03-13 00:39:19 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_slab": {
+    "criteria": {
+      "has_prismarine": "2025-03-13 00:39:19 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sea_lantern": {
+    "criteria": {
+      "has_prismarine_crystals": "2025-03-13 00:40:11 -0400"
+    },
+    "done": true
+  },
+  "vanilla_refresh:player/hurt": {
+    "criteria": {
+      "requirement": "2025-03-15 00:54:34 -0400"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/terralith/siberian_taiga": {
+    "criteria": {
+      "requirement": "2025-03-13 00:50:43 -0400"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/snowlands": {
+    "criteria": {
+      "requirement": "2025-03-13 00:54:10 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2025-03-13 01:00:06 -0400"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/snow": {
+    "criteria": {
+      "has_snowball": "2025-03-13 01:00:06 -0400"
     },
     "done": true
   },
@@ -3160,11 +3155,65 @@
     },
     "done": true
   },
-  "vanilla_refresh:biome/birch_forest": {
+  "vanilla_refresh:biome/ice_spikes": {
     "criteria": {
-      "requirement": "2025-03-13 00:28:24 -0400"
+      "requirement": "2025-03-13 01:01:23 -0400"
     },
     "done": true
+  },
+  "minecraft:recipes/misc/conduit": {
+    "criteria": {
+      "has_nautilus_shell": "2025-03-13 01:11:22 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_lilac": {
+    "criteria": {
+      "has_lilac": "2025-03-15 01:04:31 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2025-03-15 00:04:29 -0400"
+    },
+    "done": true
+  },
+  "repurposed_structures:temples": {
+    "criteria": {
+      "in_temple_taiga": "2025-03-14 23:39:39 -0400"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_orchid": {
+    "criteria": {
+      "has_blue_orchid": "2025-03-15 00:02:07 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_blue_orchid": {
+    "criteria": {
+      "has_blue_orchid": "2025-03-15 00:02:07 -0400"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/terralith/moonlight_grove": {
+    "criteria": {
+      "requirement": "2025-03-15 00:01:55 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2025-03-15 00:04:29 -0400"
+    },
+    "done": true
+  },
+  "repurposed_structures:ruins": {
+    "criteria": {
+      "in_ruins_land_cold": "2025-03-14 23:51:17 -0400"
+    },
+    "done": false
   },
   "DataVersion": 4189
 }
