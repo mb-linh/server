@@ -12,6 +12,7 @@
       "minecraft:forest": "2025-03-08 00:46:18 -0500",
       "minecraft:taiga": "2025-03-09 01:33:42 -0500",
       "minecraft:deep_ocean": "2025-03-09 03:06:46 -0400",
+      "minecraft:lush_caves": "2025-03-17 18:01:03 -0400",
       "minecraft:ice_spikes": "2025-03-09 01:48:42 -0500",
       "minecraft:eroded_badlands": "2025-03-11 00:21:43 -0400",
       "minecraft:desert": "2025-03-10 23:51:09 -0400",
@@ -22,6 +23,8 @@
       "minecraft:birch_forest": "2025-03-09 03:00:41 -0400",
       "minecraft:old_growth_spruce_taiga": "2025-03-08 02:05:09 -0500",
       "minecraft:snowy_beach": "2025-03-09 01:46:13 -0500",
+      "minecraft:wooded_badlands": "2025-03-17 15:11:46 -0400",
+      "minecraft:bamboo_jungle": "2025-03-17 17:29:18 -0400",
       "minecraft:warm_ocean": "2025-03-10 23:49:06 -0400",
       "minecraft:deep_lukewarm_ocean": "2025-03-09 03:04:16 -0400",
       "minecraft:badlands": "2025-03-10 23:54:55 -0400",
@@ -37,7 +40,8 @@
       "minecraft:old_growth_birch_forest": "2025-03-09 01:33:38 -0500",
       "minecraft:windswept_gravelly_hills": "2025-03-10 21:58:34 -0400",
       "minecraft:savanna": "2025-03-10 23:54:59 -0400",
-      "minecraft:plains": "2025-03-08 00:44:09 -0500"
+      "minecraft:plains": "2025-03-08 00:44:09 -0500",
+      "minecraft:pale_garden": "2025-03-17 18:21:29 -0400"
     },
     "done": false
   },
@@ -1344,13 +1348,15 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2025-03-09 01:08:29 -0500",
-      "minecraft:cave_spider": "2025-03-09 00:13:27 -0500",
       "minecraft:skeleton": "2025-03-08 19:00:20 -0500",
-      "minecraft:vindicator": "2025-03-09 01:30:55 -0500",
       "minecraft:witch": "2025-03-08 19:21:44 -0500",
+      "minecraft:wither_skeleton": "2025-03-13 00:02:25 -0400",
+      "minecraft:husk": "2025-03-17 15:15:01 -0400",
+      "minecraft:cave_spider": "2025-03-09 00:13:27 -0500",
+      "minecraft:vindicator": "2025-03-09 01:30:55 -0500",
+      "minecraft:enderman": "2025-03-17 18:17:11 -0400",
       "minecraft:spider": "2025-03-08 19:25:19 -0500",
       "minecraft:vex": "2025-03-10 22:47:35 -0400",
-      "minecraft:wither_skeleton": "2025-03-13 00:02:25 -0400",
       "minecraft:zombie": "2025-03-08 18:37:10 -0500",
       "minecraft:creeper": "2025-03-08 23:22:03 -0500",
       "minecraft:zombie_villager": "2025-03-09 01:40:51 -0500"
@@ -2538,7 +2544,9 @@
   "repurposed_structures:villages": {
     "criteria": {
       "in_village_birch": "2025-03-15 00:55:22 -0400",
-      "in_village_oak": "2025-03-10 23:06:10 -0400"
+      "in_village_badlands": "2025-03-17 14:40:42 -0400",
+      "in_village_oak": "2025-03-10 23:06:10 -0400",
+      "in_village_jungle": "2025-03-17 16:13:48 -0400"
     },
     "done": false
   },
@@ -2766,6 +2774,7 @@
   },
   "repurposed_structures:outposts": {
     "criteria": {
+      "in_outpost_badlands": "2025-03-17 15:32:35 -0400",
       "in_outpost_savanna": "2025-03-11 01:05:31 -0400",
       "in_outpost_snowy": "2025-03-13 00:13:56 -0400"
     },
@@ -3179,12 +3188,6 @@
     },
     "done": true
   },
-  "vanilla_refresh:player/hurt": {
-    "criteria": {
-      "requirement": "2025-03-15 00:36:57 -0400"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/conduit": {
     "criteria": {
       "has_nautilus_core": "2025-03-13 01:11:49 -0400"
@@ -3196,6 +3199,18 @@
       "in_temple_taiga": "2025-03-14 23:39:23 -0400"
     },
     "done": false
+  },
+  "repurposed_structures:ruins": {
+    "criteria": {
+      "in_ruins_land_cold": "2025-03-14 23:51:17 -0400"
+    },
+    "done": false
+  },
+  "vanilla_refresh:biome/terralith/moonlight_grove": {
+    "criteria": {
+      "requirement": "2025-03-15 00:01:55 -0400"
+    },
+    "done": true
   },
   "vanilla_refresh:biome/old_growth_pine_taiga": {
     "criteria": {
@@ -3227,23 +3242,659 @@
     },
     "done": true
   },
-  "vanilla_refresh:biome/terralith/moonlight_grove": {
-    "criteria": {
-      "requirement": "2025-03-15 00:01:55 -0400"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
     "criteria": {
       "has_oxeye_daisy": "2025-03-15 00:36:58 -0400"
     },
     "done": true
   },
-  "repurposed_structures:ruins": {
+  "vanilla_refresh:biome/badlands": {
     "criteria": {
-      "in_ruins_land_cold": "2025-03-14 23:51:17 -0400"
+      "requirement": "2025-03-17 14:41:20 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_sandstone": {
+    "criteria": {
+      "has_sand": "2025-03-17 14:42:41 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lime_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-03-17 14:42:52 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_gray_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-03-17 14:42:52 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-03-17 14:42:52 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/black_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-03-17 14:42:52 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pink_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-03-17 14:42:52 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-03-17 14:42:52 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_blue_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-03-17 14:42:52 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/yellow_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-03-17 14:42:52 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purple_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-03-17 14:42:52 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-03-17 14:42:52 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/orange_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-03-17 14:42:52 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magenta_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-03-17 14:42:52 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cyan_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-03-17 14:42:52 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gray_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-03-17 14:42:52 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/green_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-03-17 14:42:52 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brown_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-03-17 14:42:52 -0400"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/red_desert": {
+    "criteria": {
+      "requirement": "2025-03-17 15:12:14 -0400"
+    },
+    "done": true
+  },
+  "repurposed_structures:pyramids": {
+    "criteria": {
+      "in_pyramid_badlands": "2025-03-17 15:15:21 -0400"
     },
     "done": false
+  },
+  "vanilla_refresh:player/hurt": {
+    "criteria": {
+      "requirement": "2025-03-17 18:32:48 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_glazed_terracotta": {
+    "criteria": {
+      "has_brown_terracotta": "2025-03-17 15:16:48 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_red_sandstone": {
+    "criteria": {
+      "has_cut_red_sandstone": "2025-03-17 15:17:04 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_sandstone_stairs": {
+    "criteria": {
+      "has_cut_red_sandstone": "2025-03-17 15:17:04 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_red_sandstone_slab": {
+    "criteria": {
+      "has_cut_red_sandstone": "2025-03-17 15:17:04 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_red_sandstone_slab_from_cut_red_sandstone_stonecutting": {
+    "criteria": {
+      "has_cut_red_sandstone": "2025-03-17 15:17:04 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-03-17 15:17:05 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_red_sandstone": {
+    "criteria": {
+      "has_red_sandstone": "2025-03-17 15:17:05 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/granite_wall_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-03-17 15:17:05 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_red_sandstone": {
+    "criteria": {
+      "has_red_sandstone": "2025-03-17 15:17:05 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_sandstone_wall_from_red_sandstone_stonecutting": {
+    "criteria": {
+      "has_red_sandstone": "2025-03-17 15:17:05 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-03-17 15:17:05 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_slab": {
+    "criteria": {
+      "has_granite": "2025-03-17 15:17:05 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_sandstone_slab": {
+    "criteria": {
+      "has_red_sandstone": "2025-03-17 15:17:05 -0400"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/terralith/cave/underground_jungle": {
+    "criteria": {
+      "requirement": "2025-03-17 15:17:05 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_stairs": {
+    "criteria": {
+      "has_granite": "2025-03-17 15:17:05 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_red_sandstone_from_red_sandstone_stonecutting": {
+    "criteria": {
+      "has_red_sandstone": "2025-03-17 15:17:05 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-03-17 15:17:05 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/granite_wall": {
+    "criteria": {
+      "has_granite": "2025-03-17 15:17:05 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-03-17 15:17:05 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite": {
+    "criteria": {
+      "has_granite": "2025-03-17 15:17:05 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_sandstone_slab_from_red_sandstone_stonecutting": {
+    "criteria": {
+      "has_red_sandstone": "2025-03-17 15:17:05 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_red_sandstone_slab_from_red_sandstone_stonecutting": {
+    "criteria": {
+      "has_red_sandstone": "2025-03-17 15:17:05 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_red_sandstone_from_red_sandstone_stonecutting": {
+    "criteria": {
+      "has_red_sandstone": "2025-03-17 15:17:05 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_sandstone_stairs_from_red_sandstone_stonecutting": {
+    "criteria": {
+      "has_red_sandstone": "2025-03-17 15:17:05 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-03-17 15:17:05 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_sandstone_wall": {
+    "criteria": {
+      "has_red_sandstone": "2025-03-17 15:17:05 -0400"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2025-03-17 15:50:09 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_slab": {
+    "criteria": {
+      "has_sandstone": "2025-03-17 16:03:35 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone": {
+    "criteria": {
+      "has_sandstone": "2025-03-17 16:03:35 -0400"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/sandstone": {
+    "criteria": {
+      "has_sandstone": "2025-03-17 16:03:35 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sandstone_wall_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-03-17 16:03:35 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone": {
+    "criteria": {
+      "has_sandstone": "2025-03-17 16:03:35 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_stairs_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-03-17 16:03:35 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_stairs": {
+    "criteria": {
+      "has_sandstone": "2025-03-17 16:03:35 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-03-17 16:03:35 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_sandstone_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-03-17 16:03:35 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-03-17 16:03:35 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-03-17 16:03:35 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sandstone_wall": {
+    "criteria": {
+      "has_sandstone": "2025-03-17 16:03:35 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab": {
+    "criteria": {
+      "has_cut_sandstone": "2025-03-17 16:03:40 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_cut_sandstone_stonecutting": {
+    "criteria": {
+      "has_cut_sandstone": "2025-03-17 16:03:40 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/dune_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-03-17 16:04:08 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/dune_armor_trim_smithing_template": {
+    "criteria": {
+      "has_dune_armor_trim_smithing_template": "2025-03-17 16:04:08 -0400"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/terralith/cave/thermal_caves": {
+    "criteria": {
+      "requirement": "2025-03-17 16:04:31 -0400"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/terralith/amethyst_rainforest": {
+    "criteria": {
+      "requirement": "2025-03-17 17:44:43 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/melon_seeds": {
+    "criteria": {
+      "has_melon": "2025-03-17 17:56:38 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_slab": {
+    "criteria": {
+      "has_planks": "2025-03-17 18:12:32 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_button": {
+    "criteria": {
+      "has_planks": "2025-03-17 18:08:34 -0400"
+    },
+    "done": true
+  },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2025-03-17 18:26:59 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_door": {
+    "criteria": {
+      "has_planks": "2025-03-17 18:08:34 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cherry_fence": {
+    "criteria": {
+      "has_planks": "2025-03-17 18:12:32 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_fence": {
+    "criteria": {
+      "has_planks": "2025-03-17 18:08:34 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/cyan_dye_from_pitcher_plant": {
+    "criteria": {
+      "has_pitcher_plant": "2025-03-17 18:00:21 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_stairs": {
+    "criteria": {
+      "has_planks": "2025-03-17 18:12:32 -0400"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/pale_garden": {
+    "criteria": {
+      "requirement": "2025-03-17 18:21:29 -0400"
+    },
+    "done": true
+  },
+  "repurposed_structures:igloos": {
+    "criteria": {
+      "in_igloo_stone": "2025-03-17 18:25:58 -0400"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/map": {
+    "criteria": {
+      "has_compass": "2025-03-17 18:36:50 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_sign": {
+    "criteria": {
+      "has_planks": "2025-03-17 18:08:34 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_wood": {
+    "criteria": {
+      "has_log": "2025-03-17 18:07:33 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/cherry_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-03-17 18:12:32 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/cherry_button": {
+    "criteria": {
+      "has_planks": "2025-03-17 18:12:32 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_planks": {
+    "criteria": {
+      "has_log": "2025-03-17 18:04:58 -0400"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/lush_caves": {
+    "criteria": {
+      "requirement": "2025-03-17 18:01:02 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-03-17 18:08:34 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_slab": {
+    "criteria": {
+      "has_planks": "2025-03-17 18:08:34 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_wood": {
+    "criteria": {
+      "has_log": "2025-03-17 18:04:58 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2025-03-17 17:38:21 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_stairs": {
+    "criteria": {
+      "has_planks": "2025-03-17 18:08:34 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_white_tulip": {
+    "criteria": {
+      "has_white_tulip": "2025-03-17 18:29:05 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wild_armor_trim_smithing_template": {
+    "criteria": {
+      "has_wild_armor_trim_smithing_template": "2025-03-17 17:42:20 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2025-03-17 17:56:38 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wild_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-03-17 17:42:20 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/cherry_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-03-17 18:12:32 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_planks": {
+    "criteria": {
+      "has_logs": "2025-03-17 18:07:33 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cherry_sign": {
+    "criteria": {
+      "has_planks": "2025-03-17 18:12:32 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/cherry_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-03-17 18:12:32 -0400"
+    },
+    "done": true
+  },
+  "minecraft:story/cure_zombie_villager": {
+    "criteria": {
+      "cured_zombie": "2025-03-17 18:30:57 -0400"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/melon": {
+    "criteria": {
+      "has_melon_slice": "2025-03-17 17:56:38 -0400"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/terralith/sakura_grove": {
+    "criteria": {
+      "requirement": "2025-03-17 18:04:13 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-03-17 18:08:34 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2025-03-17 17:56:38 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_white_tulip": {
+    "criteria": {
+      "has_white_tulip": "2025-03-17 18:29:05 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2025-03-17 17:43:23 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-03-17 18:08:34 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_block": {
+    "criteria": {
+      "has_bamboo": "2025-03-17 17:43:23 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/cherry_door": {
+    "criteria": {
+      "has_planks": "2025-03-17 18:12:32 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2025-03-17 17:43:23 -0400"
+    },
+    "done": true
   },
   "DataVersion": 4189
 }
