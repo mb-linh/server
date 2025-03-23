@@ -13,6 +13,7 @@
       "minecraft:taiga": "2025-03-09 01:33:43 -0500",
       "minecraft:deep_ocean": "2025-03-09 03:06:46 -0400",
       "minecraft:lush_caves": "2025-03-17 18:01:03 -0400",
+      "minecraft:deep_cold_ocean": "2025-03-22 23:55:46 -0400",
       "minecraft:ice_spikes": "2025-03-09 01:48:43 -0500",
       "minecraft:eroded_badlands": "2025-03-11 00:21:45 -0400",
       "minecraft:desert": "2025-03-10 23:51:10 -0400",
@@ -985,6 +986,7 @@
       "minecraft:zombified_piglin": "2025-03-19 02:27:17 -0400",
       "minecraft:witch": "2025-03-08 19:21:42 -0500",
       "minecraft:wither_skeleton": "2025-03-13 00:02:07 -0400",
+      "minecraft:ravager": "2025-03-22 23:43:13 -0400",
       "minecraft:husk": "2025-03-11 01:00:39 -0400",
       "minecraft:ghast": "2025-03-21 23:14:40 -0400",
       "minecraft:hoglin": "2025-03-22 00:42:14 -0400",
@@ -3933,6 +3935,7 @@
     "criteria": {
       "incendium:weeping_valley": "2025-03-21 23:03:22 -0400",
       "incendium:infernal_dunes": "2025-03-22 00:31:02 -0400",
+      "incendium:quartz_flats": "2025-03-23 00:52:16 -0400",
       "incendium:toxic_heap": "2025-03-21 23:01:43 -0400"
     },
     "done": false
@@ -4229,7 +4232,7 @@
   },
   "vanilla_refresh:player/hurt": {
     "criteria": {
-      "requirement": "2025-03-22 00:20:30 -0400"
+      "requirement": "2025-03-23 01:24:20 -0400"
     },
     "done": true
   },
@@ -4307,75 +4310,363 @@
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2025-03-22 16:58:40 -0400"
+      "log_spam_fixer": "2025-03-23 02:06:46 -0400"
     },
     "done": false
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-03-22 16:58:40 -0400"
+      "log_spam_fixer": "2025-03-23 02:06:46 -0400"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-03-22 16:58:40 -0400"
+      "log_spam_fixer": "2025-03-23 02:06:46 -0400"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-03-22 16:58:40 -0400"
+      "log_spam_fixer": "2025-03-23 02:06:46 -0400"
     },
     "done": false
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2025-03-22 16:58:40 -0400"
+      "log_spam_fixer": "2025-03-23 02:06:46 -0400"
     },
     "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-03-22 16:58:40 -0400"
+      "log_spam_fixer": "2025-03-23 02:06:46 -0400"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-03-22 16:58:40 -0400"
+      "log_spam_fixer": "2025-03-23 02:06:46 -0400"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-03-22 16:58:40 -0400"
+      "log_spam_fixer": "2025-03-23 02:06:46 -0400"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2025-03-22 16:58:40 -0400"
+      "log_spam_fixer": "2025-03-23 02:06:46 -0400"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2025-03-22 16:58:40 -0400"
+      "log_spam_fixer": "2025-03-23 02:06:46 -0400"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-03-22 16:58:40 -0400"
+      "log_spam_fixer": "2025-03-23 02:06:46 -0400"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2025-03-22 16:58:40 -0400"
+      "log_spam_fixer": "2025-03-23 02:06:46 -0400"
     },
     "done": false
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-03-23 00:23:27 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-03-23 00:23:27 -0400"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/terralith/rocky_mountains": {
+    "criteria": {
+      "requirement": "2025-03-22 22:50:53 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_chestplate_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-03-23 01:30:38 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_sword_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-03-23 01:30:38 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
+    "criteria": {
+      "has_netherite_upgrade_smithing_template": "2025-03-23 01:38:09 -0400"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/incendium/quartz_flats": {
+    "criteria": {
+      "requirement": "2025-03-23 00:52:16 -0400"
+    },
+    "done": true
+  },
+  "knize1007:root": {
+    "criteria": {
+      "tick": "2025-03-22 22:48:15 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_leggings_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-03-23 01:30:38 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_stairs": {
+    "criteria": {
+      "has_polished_blackstone": "2025-03-23 00:23:55 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2025-03-23 00:23:55 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_polished_blackstone_bricks": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-03-23 00:23:27 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/polished_blackstone_button": {
+    "criteria": {
+      "has_polished_blackstone": "2025-03-23 00:23:55 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_hoe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-03-23 01:30:38 -0400"
+    },
+    "done": true
+  },
+  "knize1007:arthropod": {
+    "criteria": {
+      "requirement": "2025-03-22 22:51:06 -0400"
+    },
+    "done": true
+  },
+  "e-gap_addition:recipes/food/enchanted_golden_apple": {
+    "criteria": {
+      "has_gold_ingot": "2025-03-22 23:45:57 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_slab": {
+    "criteria": {
+      "has_polished_blackstone": "2025-03-23 00:23:55 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_ingot": {
+    "criteria": {
+      "has_netherite_scrap": "2025-03-23 01:26:52 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-03-23 00:23:27 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lodestone": {
+    "criteria": {
+      "has_netherite_ingot": "2025-03-23 01:30:38 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_helmet_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-03-23 01:30:38 -0400"
+    },
+    "done": true
+  },
+  "incendium:misc/loot_piglin_village": {
+    "criteria": {
+      "incendium:medium": "2025-03-23 00:42:26 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/netherite_block": {
+    "criteria": {
+      "has_netherite_ingot": "2025-03-23 01:30:38 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_boots_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-03-23 01:30:38 -0400"
+    },
+    "done": true
+  },
+  "knize1007:hostilemobs": {
+    "criteria": {
+      "tick": "2025-03-22 22:48:15 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_shovel_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-03-23 01:30:38 -0400"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/netherite": {
+    "criteria": {
+      "has_netherite_ingot": "2025-03-23 01:30:38 -0400"
+    },
+    "done": true
+  },
+  "knize1007:arthropod_redemption": {
+    "criteria": {
+      "requirement": "2025-03-22 22:51:06 -0400"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_bricks_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2025-03-23 00:23:55 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_polished_blackstone_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2025-03-23 00:23:55 -0400"
+    },
+    "done": true
+  },
+  "incendium:quartz_flats/root": {
+    "criteria": {
+      "requirement": "2025-03-23 00:52:16 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_axe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-03-23 01:30:38 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_stairs_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2025-03-23 00:23:55 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_slab_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2025-03-23 00:23:55 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-03-23 00:23:27 -0400"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/sponge_smithing": {
+    "criteria": {
+      "has_sponge": "2025-03-22 22:50:01 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-03-23 00:23:27 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_wall_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2025-03-23 00:23:55 -0400"
+    },
+    "done": true
+  },
+  "minecraft:nether/return_to_sender": {
+    "criteria": {
+      "killed_ghast": "2025-03-23 00:14:38 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/polished_blackstone_pressure_plate": {
+    "criteria": {
+      "has_polished_blackstone": "2025-03-23 00:23:55 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2025-03-23 00:23:55 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-03-23 00:23:27 -0400"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/netherite_tier_upgrade": {
+    "criteria": {
+      "has_netherite_ingot": "2025-03-23 01:30:38 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_pickaxe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-03-23 01:30:38 -0400"
+    },
+    "done": true
+  },
+  "knize1007:hogwarts": {
+    "criteria": {
+      "requirement": "2025-03-23 00:35:15 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_bricks": {
+    "criteria": {
+      "has_polished_blackstone": "2025-03-23 00:23:55 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_wall": {
+    "criteria": {
+      "has_polished_blackstone": "2025-03-23 00:23:55 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2025-03-23 00:23:55 -0400"
+    },
+    "done": true
   },
   "DataVersion": 4189
 }
