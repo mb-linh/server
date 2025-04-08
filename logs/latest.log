@@ -1,277 +1,86 @@
-[00:01:35] [Server thread/WARN]: Cherry Boat (vehicle of mb_leo) moved wrongly! 0.2650034982991656
-[00:01:35] [Server thread/WARN]: Cherry Boat (vehicle of mb_leo) moved wrongly! 0.25956121776380314
-[00:01:35] [Server thread/WARN]: Cherry Boat (vehicle of mb_leo) moved wrongly! 0.2542277830598323
-[00:01:35] [Server thread/WARN]: Cherry Boat (vehicle of mb_leo) moved wrongly! 1.039638059142817
-[00:01:35] [Server thread/WARN]: Cherry Boat (vehicle of mb_leo) moved wrongly! 0.5276509866871493
-[00:09:32] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:09:32] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:10:03] [Server thread/INFO]: PotatoUltraCute fell from a high place
-[00:10:03] [Server thread/INFO]: Created new backpack backup file for PotatoUltraCute with unique ID travelersbackpack.spider_31.03.2025-00.10.03.dat
-[00:10:03] [Server thread/ERROR]: Tried to load invalid item: 'No key value in MapLike[{name:"textures",signature:"vanilla_refresh_death_head"}] missed input: {"minecraft:profile":{id:[I;1740322621,-102615368,-1579706129,1419831467],name:"PotatoUltraCute",properties:[{name:"textures",signature:"vanilla_refresh_death_head"}]}}'
-[00:10:08] [Server thread/INFO]: [mb_leo: Teleported PotatoUltraCute to mb_leo]
-[00:11:31] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:11:31] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:11:45] [c2me-worker-0/ERROR]: Couldn't load structure mss:desert_well
-net.minecraft.class_8911: Loading NBT data
-	at knot/net.minecraft.class_2487.method_10581(class_2487.java:530) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2487$1.method_53889(class_2487.java:76) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2487$1.method_23240(class_2487.java:63) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2487$1.method_23262(class_2487.java:58) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2499$1.method_53895(class_2499.java:48) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2499$1.method_23249(class_2499.java:31) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2499$1.method_23262(class_2499.java:26) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2487.method_10581(class_2487.java:524) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2487$1.method_53889(class_2487.java:76) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2487$1.method_23240(class_2487.java:63) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2487$1.method_23262(class_2487.java:58) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2507.method_52892(class_2507.java:191) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2507.method_10626(class_2507.java:186) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2507.method_10625(class_2507.java:111) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2507.method_10629(class_2507.java:51) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3485.method_15090(class_3485.java:242) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3485.method_44231(class_3485.java:232) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3485.method_15088(class_3485.java:136) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3485.method_44245(class_3485.java:114) ~[server-intermediary.jar:?]
-	at knot/com.google.common.cache.LocalCache.lambda$computeIfAbsent$0(LocalCache.java:4276) ~[guava-33.3.1-jre.jar:?]
-	at knot/com.google.common.cache.LocalCache$LoadingValueReference.compute(LocalCache.java:3611) ~[guava-33.3.1-jre.jar:?]
-	at knot/com.google.common.cache.LocalCache$Segment.compute(LocalCache.java:2281) ~[guava-33.3.1-jre.jar:?]
-	at knot/com.google.common.cache.LocalCache.compute(LocalCache.java:4269) ~[guava-33.3.1-jre.jar:?]
-	at knot/com.google.common.cache.LocalCache.computeIfAbsent(LocalCache.java:4276) ~[guava-33.3.1-jre.jar:?]
-	at knot/net.minecraft.class_3485.method_15094(class_3485.java:104) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3485.method_15091(class_3485.java:92) ~[server-intermediary.jar:?]
-	at knot/com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-8.0.16.jar:?]
-	at knot/net.minecraft.class_3781.method_27233(class_3781.java:93) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3781.method_16628(class_3781.java:132) ~[server-intermediary.jar:?]
-	at knot/com.finndog.mss.world.structures.pieces.PieceLimitedJigsawManager.assembleJigsawStructure(PieceLimitedJigsawManager.java:108) ~[mss-1.3.2-1.21.4.jar:?]
-	at knot/com.finndog.mss.world.structures.GenericJigsawStructure.method_38676(GenericJigsawStructure.java:213) ~[mss-1.3.2-1.21.4.jar:?]
-	at knot/net.minecraft.class_3195.method_47932(class_3195.java:252) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3195.method_41614(class_3195.java:166) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2794.method_41044(class_2794.java:518) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2794.method_41041(class_2794.java:471) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
-	at knot/net.minecraft.class_2794.method_16129(class_2794.java:453) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_9310.method_57601(class_9310.java:37) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_9770.method_60560(class_9770.java:33) ~[server-intermediary.jar:?]
-	at knot/com.ishland.c2me.rewrites.chunksystem.common.statuses.VanillaWorldGenerationDelegate.lambda$upgradeToThis$8(VanillaWorldGenerationDelegate.java:137) ~[c2me-rewrites-chunk-system-0.3.1.1.0+1.21.4-da93ce0cd5b22344.jar:?]
-	at knot/com.ishland.c2me.base.common.scheduler.ScheduledTask.run(ScheduledTask.java:22) [c2me-base-0.3.1.2+rc.1.0+1.21.4-f048f388cfced681.jar:?]
-	at knot/com.ishland.flowsched.executor.WorkerThread.pollTasks(WorkerThread.java:57) [c2me-base-0.3.1.2+rc.1.0+1.21.4-f048f388cfced681.jar:?]
-	at knot/com.ishland.flowsched.executor.WorkerThread.run(WorkerThread.java:27) [c2me-base-0.3.1.2+rc.1.0+1.21.4-f048f388cfced681.jar:?]
-Caused by: java.io.IOException: Invalid tag id: 16
-	at knot/net.minecraft.class_4614$1.method_39878(class_4614.java:58) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_4614$1.method_23264(class_4614.java:63) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_4614$1.method_23262(class_4614.java:56) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2487.method_10581(class_2487.java:524) ~[server-intermediary.jar:?]
-	... 42 more
-[00:13:27] [c2me-worker-1/WARN]: Template pool fallback chain found: kaisyn:village/modded/waystones/waystone_default -> kaisyn:village/modded/waystones/waystone_default
-[00:13:41] [c2me-worker-0/WARN]: Couldn't find template pool reference: ctov:village/bounty/plains
-[00:13:41] [c2me-worker-0/WARN]: Couldn't find template pool reference: ctov:village/vampirism/totem
-[00:13:41] [c2me-worker-0/WARN]: Couldn't find template pool reference: ctov:village/waystone/normal
-[00:13:55] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:14:23] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:14:23] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:14:55] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:14:55] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:16:20] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:16:20] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:16:31] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:16:31] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:17:28] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:17:28] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:17:29] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:17:29] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:17:35] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:18:14] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:18:14] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:20:22] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:20:22] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:20:35] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:20:35] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:20:37] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:20:37] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:20:40] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:20:40] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:20:41] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:20:45] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:20:49] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:20:49] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:20:49] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:20:49] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:20:51] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:20:55] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:21:13] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:21:16] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:21:21] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:21:21] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:21:27] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:21:35] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:21:37] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:21:48] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:21:50] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:21:52] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:22:17] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:22:31] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:24:54] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:26:21] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:26:21] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:26:21] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:26:21] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:26:42] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:26:42] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:26:52] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:26:52] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:27:42] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:28:50] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:28:50] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:29:01] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:29:09] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:29:35] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:29:35] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:29:35] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:30:02] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:30:02] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:30:07] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:30:07] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:31:36] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:31:36] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:31:54] [c2me-worker-3/ERROR]: Couldn't load structure mss:frozen_pond
-net.minecraft.class_8911: Loading NBT data
-	at knot/net.minecraft.class_2487.method_10581(class_2487.java:530) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2487$1.method_53889(class_2487.java:76) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2487$1.method_23240(class_2487.java:63) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2487$1.method_23262(class_2487.java:58) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2499$1.method_53895(class_2499.java:48) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2499$1.method_23249(class_2499.java:31) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2499$1.method_23262(class_2499.java:26) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2487.method_10581(class_2487.java:524) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2487$1.method_53889(class_2487.java:76) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2487$1.method_23240(class_2487.java:63) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2487$1.method_23262(class_2487.java:58) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2507.method_52892(class_2507.java:191) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2507.method_10626(class_2507.java:186) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2507.method_10625(class_2507.java:111) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2507.method_10629(class_2507.java:51) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3485.method_15090(class_3485.java:242) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3485.method_44231(class_3485.java:232) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3485.method_15088(class_3485.java:136) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3485.method_44245(class_3485.java:114) ~[server-intermediary.jar:?]
-	at knot/com.google.common.cache.LocalCache.lambda$computeIfAbsent$0(LocalCache.java:4276) ~[guava-33.3.1-jre.jar:?]
-	at knot/com.google.common.cache.LocalCache$LoadingValueReference.compute(LocalCache.java:3611) ~[guava-33.3.1-jre.jar:?]
-	at knot/com.google.common.cache.LocalCache$Segment.compute(LocalCache.java:2281) ~[guava-33.3.1-jre.jar:?]
-	at knot/com.google.common.cache.LocalCache.compute(LocalCache.java:4269) ~[guava-33.3.1-jre.jar:?]
-	at knot/com.google.common.cache.LocalCache.computeIfAbsent(LocalCache.java:4276) ~[guava-33.3.1-jre.jar:?]
-	at knot/net.minecraft.class_3485.method_15094(class_3485.java:104) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3485.method_15091(class_3485.java:92) ~[server-intermediary.jar:?]
-	at knot/com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-8.0.16.jar:?]
-	at knot/net.minecraft.class_3781.method_27233(class_3781.java:93) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3781.method_16628(class_3781.java:132) ~[server-intermediary.jar:?]
-	at knot/com.finndog.mss.world.structures.pieces.PieceLimitedJigsawManager.assembleJigsawStructure(PieceLimitedJigsawManager.java:108) ~[mss-1.3.2-1.21.4.jar:?]
-	at knot/com.finndog.mss.world.structures.GenericJigsawStructure.method_38676(GenericJigsawStructure.java:213) ~[mss-1.3.2-1.21.4.jar:?]
-	at knot/net.minecraft.class_3195.method_47932(class_3195.java:252) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3195.method_41614(class_3195.java:166) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2794.method_41044(class_2794.java:518) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2794.method_41041(class_2794.java:471) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
-	at knot/net.minecraft.class_2794.method_16129(class_2794.java:453) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_9310.method_57601(class_9310.java:37) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_9770.method_60560(class_9770.java:33) ~[server-intermediary.jar:?]
-	at knot/com.ishland.c2me.rewrites.chunksystem.common.statuses.VanillaWorldGenerationDelegate.lambda$upgradeToThis$8(VanillaWorldGenerationDelegate.java:137) ~[c2me-rewrites-chunk-system-0.3.1.1.0+1.21.4-da93ce0cd5b22344.jar:?]
-	at knot/com.ishland.c2me.base.common.scheduler.ScheduledTask.run(ScheduledTask.java:22) [c2me-base-0.3.1.2+rc.1.0+1.21.4-f048f388cfced681.jar:?]
-	at knot/com.ishland.flowsched.executor.WorkerThread.pollTasks(WorkerThread.java:57) [c2me-base-0.3.1.2+rc.1.0+1.21.4-f048f388cfced681.jar:?]
-	at knot/com.ishland.flowsched.executor.WorkerThread.run(WorkerThread.java:27) [c2me-base-0.3.1.2+rc.1.0+1.21.4-f048f388cfced681.jar:?]
-Caused by: java.io.IOException: Invalid tag id: 115
-	at knot/net.minecraft.class_4614$1.method_39878(class_4614.java:58) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_4614$1.method_23264(class_4614.java:63) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_4614$1.method_23262(class_4614.java:56) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2487.method_10581(class_2487.java:524) ~[server-intermediary.jar:?]
-	... 42 more
-[00:33:30] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:33:30] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:33:33] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:35:42] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:36:05] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:37:04] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:37:08] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:38:08] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:38:08] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:39:42] [c2me-worker-0/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
-[00:39:42] [c2me-worker-0/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[00:39:44] [c2me-worker-2/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
-[00:39:44] [c2me-worker-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[00:39:44] [c2me-worker-2/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
-[00:39:44] [c2me-worker-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[00:39:47] [c2me-worker-3/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
-[00:39:47] [c2me-worker-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[00:42:10] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:43:06] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:43:55] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:44:45] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:44:52] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:44:52] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:44:52] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:44:54] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:45:22] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:45:26] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:46:50] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:46:50] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:46:56] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:47:12] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:47:19] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:47:19] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:47:19] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:47:19] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:49:23] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:50:54] [Server thread/INFO]: mb_leo has made the advancement [Monsters Level 40]
-[00:51:30] [Server thread/INFO]: Named entity class_1634['Space-Time Vex'/109819, l='ServerLevel[world]', x=-3013.74, y=77.30, z=-6420.25] died: Space-Time Vex was slain by mb_leo using [Fe3O4: Stick Out]
-[00:52:15] [Server thread/INFO]: Named entity class_1634['Space-Time Vex'/110669, l='ServerLevel[world]', x=-3012.22, y=70.71, z=-6421.80] died: Space-Time Vex was slain by mb_leo using [Fe3O4: Stick Out]
-[00:52:52] [Server thread/INFO]: PotatoUltraCute has made the advancement [Space-Time Shatter]
-[00:54:33] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:54:55] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:54:57] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:56:04] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:56:30] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:58:14] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[00:58:19] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[01:00:41] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[01:01:06] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[01:01:06] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
-[01:04:53] [Server thread/INFO]: [mb_leo: Running function hostilemobs:config]
-[01:05:04] [Server thread/INFO]: [mb_leo: Running function hostilemobs:configmenu/displays]
-[01:05:22] [Server thread/INFO]: [mb_leo: Set display slot below_name to show objective HostileMobs]
-[01:05:25] [Server thread/INFO]: [mb_leo: Set display slot list to show objective HostileMobs]
-[01:05:41] [Server thread/INFO]: [mb_leo: Running function hostilemobs:configmenu/config]
-[01:05:43] [Server thread/INFO]: [mb_leo: Running function hostilemobs:configmenu/displays]
-[01:06:25] [Server thread/INFO]: [mb_leo: Running function hostilemobs:configmenu/shatter]
-[01:06:47] [Server thread/INFO]: [mb_leo: Running function hostilemobs:configmenu/shatter2]
-[01:06:53] [Server thread/INFO]: [mb_leo: Running function hostilemobs:configmenu/config]
-[01:07:00] [Server thread/INFO]: [mb_leo: Running function hostilemobs:configmenu/mobtoggle1]
-[01:07:04] [Server thread/INFO]: [mb_leo: Running function hostilemobs:configmenu/config]
-[01:07:06] [Server thread/INFO]: [mb_leo: Running function hostilemobs:configmenu/mob]
-[01:08:02] [Server thread/INFO]: mb_leo lost connection: Disconnected
-[01:08:02] [Server thread/INFO]: mb_leo left the game
-[01:08:10] [Server thread/INFO]: PotatoUltraCute lost connection: Disconnected
-[01:08:10] [Server thread/INFO]: PotatoUltraCute left the game
-[01:08:24] [Server thread/INFO]: Stopping the server
-[01:08:24] [Server thread/INFO]: Stopping server
-[01:08:24] [Server thread/INFO]: Saving players
-[01:08:24] [Server thread/INFO]: Saving worlds
-[01:08:24] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 729 chunks to unload
-[01:08:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[01:08:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[01:08:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[01:08:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[01:08:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01:08:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01:08:24] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[01:08:24] [C2ME Storage #3/INFO]: Storage thread Thread[#87,C2ME Storage #3,8,main] stopped
-[01:08:25] [C2ME Storage #2/INFO]: Storage thread Thread[#86,C2ME Storage #2,8,main] stopped
-[01:08:25] [C2ME Storage #1/INFO]: Storage thread Thread[#85,C2ME Storage #1,8,main] stopped
-[01:08:25] [C2ME Storage #5/INFO]: Storage thread Thread[#91,C2ME Storage #5,8,main] stopped
-[01:08:25] [C2ME Storage #6/INFO]: Storage thread Thread[#92,C2ME Storage #6,8,main] stopped
-[01:08:25] [C2ME Storage #4/INFO]: Storage thread Thread[#90,C2ME Storage #4,8,main] stopped
-[01:08:25] [C2ME Storage #9/INFO]: Storage thread Thread[#96,C2ME Storage #9,8,main] stopped
-[01:08:25] [C2ME Storage #8/INFO]: Storage thread Thread[#95,C2ME Storage #8,8,main] stopped
-[01:08:25] [C2ME Storage #7/INFO]: Storage thread Thread[#94,C2ME Storage #7,8,main] stopped
-[01:08:25] [Server thread/INFO]: Dispatching unloading event for config easyanvils-server.toml
-[01:08:25] [Server thread/INFO]: Dispatching unloading event for config easymagic-server.toml
-[01:08:25] [Server thread/INFO]: Dispatching unloading event for config leavesbegone-server.toml
-[01:08:25] [Server thread/INFO]: Dispatching unloading event for config pickupnotifier/pickupnotifier-server.toml
+[00:06:00] [c2me-worker-0/WARN]: Couldn't find template pool reference: kaisyn:village/beach_lighthouse/villager_lighthouse_master
+[00:06:00] [c2me-worker-0/WARN]: Template pool fallback chain found: kaisyn:village/modded/waystones/waystone_default -> kaisyn:village/modded/waystones/waystone_default
+[00:07:46] [Server thread/INFO]: mb_leo lost connection: Disconnected
+[00:07:46] [Server thread/INFO]: mb_leo left the game
+[00:11:07] [Server thread/INFO]: mb_leo[/140.141.29.224:49973] logged in with entity id 23197 at (-4802.689366851148, 62.11076431274414, -16616.449640025996)
+[00:11:07] [Server thread/INFO]: Loading config from file...
+[00:11:07] [Server thread/INFO]: mb_leo joined the game
+[00:15:22] [Server thread/WARN]: PotatoUltraCute moved too quickly! -9.904805664097694,0.41999998688697815,2.0581251531075395
+[00:21:18] [Server thread/INFO]: mb_leo was slain by Ravager
+[00:21:18] [Server thread/INFO]: Created new backpack backup file for mb_leo with unique ID travelersbackpack.spider_08.04.2025-00.21.18.dat
+[00:21:49] [Server thread/INFO]: [mb_leo: Applied effect Glowing to 2 targets]
+[00:22:34] [Server thread/INFO]: Villager class_1646['Mai Anh'/21268, l='ServerLevel[world]', x=-4697.33, y=63.00, z=-16705.45] died, message: 'Mai Anh was slain by Vex'
+[00:22:34] [Server thread/INFO]: Named entity class_1646['Mai Anh'/21268, l='ServerLevel[world]', x=-4697.33, y=63.00, z=-16705.45] died: Mai Anh was slain by Vex
+[00:22:39] [Server thread/INFO]: Villager class_1646['Ksor Thui'/21128, l='ServerLevel[world]', x=-4697.30, y=63.00, z=-16707.50] died, message: 'Ksor Thui was killed by Evoker using magic'
+[00:22:39] [Server thread/INFO]: Named entity class_1646['Ksor Thui'/21128, l='ServerLevel[world]', x=-4697.30, y=63.00, z=-16707.50] died: Ksor Thui was killed by Evoker using magic
+[00:22:49] [Server thread/INFO]: Villager class_1646['Vọng Nguyệt'/21269, l='ServerLevel[world]', x=-4691.50, y=63.00, z=-16707.70] died, message: 'Vọng Nguyệt was killed by Evoker using magic'
+[00:22:49] [Server thread/INFO]: Named entity class_1646['Vọng Nguyệt'/21269, l='ServerLevel[world]', x=-4691.50, y=63.00, z=-16707.70] died: Vọng Nguyệt was killed by Evoker using magic
+[00:23:29] [Server thread/INFO]: Villager class_1646['H'Len'/21619, l='ServerLevel[world]', x=-4669.21, y=63.00, z=-16691.83] died, message: 'H'Len was slain by Vindicator'
+[00:23:29] [Server thread/INFO]: Named entity class_1646['H'Len'/21619, l='ServerLevel[world]', x=-4669.21, y=63.00, z=-16691.83] died: H'Len was slain by Vindicator
+[00:23:39] [Server thread/INFO]: Villager class_1646['Lạc An'/21620, l='ServerLevel[world]', x=-4669.50, y=64.00, z=-16708.13] died, message: 'Lạc An went off with a bang'
+[00:23:39] [Server thread/INFO]: Named entity class_1646['Lạc An'/21620, l='ServerLevel[world]', x=-4669.50, y=64.00, z=-16708.13] died: Lạc An went off with a bang
+[00:23:51] [Server thread/INFO]: Villager class_1646['Thiện Tính'/21267, l='ServerLevel[world]', x=-4687.62, y=63.00, z=-16713.40] died, message: 'Thiện Tính was killed by Evoker using magic'
+[00:23:51] [Server thread/INFO]: Named entity class_1646['Thiện Tính'/21267, l='ServerLevel[world]', x=-4687.62, y=63.00, z=-16713.40] died: Thiện Tính was killed by Evoker using magic
+[00:23:54] [Server thread/INFO]: Villager class_1646['Hlong Linh'/21617, l='ServerLevel[world]', x=-4670.37, y=64.67, z=-16712.11] died, message: 'Hlong Linh went off with a bang'
+[00:23:54] [Server thread/INFO]: Named entity class_1646['Hlong Linh'/21617, l='ServerLevel[world]', x=-4670.37, y=64.67, z=-16712.11] died: Hlong Linh went off with a bang
+[00:23:54] [Server thread/INFO]: Villager class_1646['Thi Hà'/21272, l='ServerLevel[world]', x=-4668.46, y=64.56, z=-16714.64] died, message: 'Thi Hà was slain by Vex'
+[00:23:54] [Server thread/INFO]: Named entity class_1646['Thi Hà'/21272, l='ServerLevel[world]', x=-4668.46, y=64.56, z=-16714.64] died: Thi Hà was slain by Vex
+[00:26:27] [Server thread/INFO]: [mb_leo: Applied effect Glowing to 2 targets]
+[00:30:38] [Server thread/INFO]: [mb_leo: Set the weather to rain & thunder]
+[00:30:47] [Server thread/INFO]: mb_leo has made the advancement [A Throwaway Joke]
+[00:30:57] [Server thread/INFO]: [mb_leo: Set the weather to clear]
+[00:47:33] [Server thread/INFO]: [mb_leo: Skin changed]
+[00:47:40] [Server thread/INFO]: [mb_leo: Skin changed]
+[00:47:45] [Server thread/INFO]: [mb_leo: Applied skin changes for PotatoUltraCute]
+[00:48:10] [Server thread/INFO]: [mb_leo: Skin changed]
+[00:48:29] [Server thread/INFO]: PotatoUltraCute was shot by mb_leo using [Fe3O4: Forward]
+[00:48:29] [Server thread/INFO]: Created new backpack backup file for PotatoUltraCute with unique ID travelersbackpack.spider_08.04.2025-00.48.29.dat
+[00:49:02] [Server thread/INFO]: [mb_leo: Applied effect Glowing to 2 targets]
+[00:50:36] [Server thread/INFO]: [mb_leo: No skin changes]
+[00:56:59] [Server thread/INFO]: PotatoUltraCute was slain by Vex
+[00:56:59] [Server thread/INFO]: Created new backpack backup file for PotatoUltraCute with unique ID travelersbackpack.spider_08.04.2025-00.56.59.dat
+[00:58:19] [Server thread/INFO]: PotatoUltraCute was slain by Vindicator
+[00:58:19] [Server thread/INFO]: Created new backpack backup file for PotatoUltraCute with unique ID travelersbackpack.spider_08.04.2025-00.58.19.dat
+[00:58:32] [Server thread/INFO]: Villager class_1646['Đan Thu'/21622, l='ServerLevel[world]', x=-4688.90, y=64.56, z=-16694.73] died, message: 'Đan Thu was slain by Vex'
+[00:58:32] [Server thread/INFO]: Named entity class_1646['Đan Thu'/21622, l='ServerLevel[world]', x=-4688.90, y=64.56, z=-16694.73] died: Đan Thu was slain by Vex
+[00:59:42] [Server thread/INFO]: Villager class_1646['Vân Ngọc'/21618, l='ServerLevel[world]', x=-4672.50, y=65.00, z=-16703.70] died, message: 'Vân Ngọc was killed by Evoker using magic'
+[00:59:42] [Server thread/INFO]: Named entity class_1646['Vân Ngọc'/21618, l='ServerLevel[world]', x=-4672.50, y=65.00, z=-16703.70] died: Vân Ngọc was killed by Evoker using magic
+[01:00:17] [Server thread/INFO]: [mb_leo: Applied effect Glowing to 2 targets]
+[01:04:51] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
+[01:10:43] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
+[01:10:43] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
+[01:11:25] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
+[01:11:25] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
+[01:11:55] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
+[01:11:55] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:'
+[01:18:36] [Server thread/INFO]: PotatoUltraCute has made the advancement [Monsters Level 50]
+[01:19:09] [Server thread/INFO]: PotatoUltraCute lost connection: Disconnected
+[01:19:09] [Server thread/INFO]: PotatoUltraCute left the game
+[01:19:11] [Server thread/INFO]: mb_leo lost connection: Disconnected
+[01:19:11] [Server thread/INFO]: mb_leo left the game
+[01:19:26] [Server thread/INFO]: Stopping the server
+[01:19:26] [Server thread/INFO]: Stopping server
+[01:19:26] [Server thread/INFO]: Saving players
+[01:19:26] [Server thread/INFO]: Saving worlds
+[01:19:26] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 729 chunks to unload
+[01:19:26] [Server thread/INFO]: ServerLevel[world]/minecraft:the_nether: waiting for 729 chunks to unload
+[01:19:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01:19:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[01:19:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[01:19:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01:19:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:19:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01:19:26] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01:19:26] [C2ME Storage #3/INFO]: Storage thread Thread[#88,C2ME Storage #3,8,main] stopped
+[01:19:27] [C2ME Storage #2/INFO]: Storage thread Thread[#87,C2ME Storage #2,8,main] stopped
+[01:19:27] [C2ME Storage #1/INFO]: Storage thread Thread[#86,C2ME Storage #1,8,main] stopped
+[01:19:27] [C2ME Storage #6/INFO]: Storage thread Thread[#93,C2ME Storage #6,8,main] stopped
+[01:19:27] [C2ME Storage #5/INFO]: Storage thread Thread[#92,C2ME Storage #5,8,main] stopped
+[01:19:27] [C2ME Storage #4/INFO]: Storage thread Thread[#91,C2ME Storage #4,8,main] stopped
+[01:19:27] [C2ME Storage #9/INFO]: Storage thread Thread[#97,C2ME Storage #9,8,main] stopped
+[01:19:27] [C2ME Storage #8/INFO]: Storage thread Thread[#96,C2ME Storage #8,8,main] stopped
+[01:19:27] [C2ME Storage #7/INFO]: Storage thread Thread[#95,C2ME Storage #7,8,main] stopped
+[01:19:27] [Server thread/INFO]: Dispatching unloading event for config easyanvils-server.toml
+[01:19:27] [Server thread/INFO]: Dispatching unloading event for config easymagic-server.toml
+[01:19:27] [Server thread/INFO]: Dispatching unloading event for config leavesbegone-server.toml
+[01:19:27] [Server thread/INFO]: Dispatching unloading event for config pickupnotifier/pickupnotifier-server.toml

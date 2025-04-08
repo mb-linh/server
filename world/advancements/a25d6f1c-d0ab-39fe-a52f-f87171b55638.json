@@ -4404,9 +4404,10 @@
       "minecraft:crimson_forest": "2025-03-22 00:36:01 -0400",
       "minecraft:nether_wastes": "2025-03-21 23:50:11 -0400",
       "minecraft:soul_sand_valley": "2025-03-22 00:32:18 -0400",
-      "minecraft:basalt_deltas": "2025-03-21 22:52:02 -0400"
+      "minecraft:basalt_deltas": "2025-03-21 22:52:02 -0400",
+      "minecraft:warped_forest": "2025-04-05 00:47:50 -0400"
     },
-    "done": false
+    "done": true
   },
   "vanilla_refresh:location/the_nether": {
     "criteria": {
@@ -4482,10 +4483,12 @@
   },
   "incendium:misc/soul_searcher": {
     "criteria": {
+      "incendium:ash_barrens": "2025-04-05 00:55:52 -0400",
       "incendium:weeping_valley": "2025-03-21 23:03:27 -0400",
       "incendium:infernal_dunes": "2025-03-22 00:31:01 -0400",
       "incendium:quartz_flats": "2025-03-23 00:52:21 -0400",
-      "incendium:toxic_heap": "2025-03-21 23:01:37 -0400"
+      "incendium:toxic_heap": "2025-03-21 23:01:37 -0400",
+      "incendium:withered_forest": "2025-04-07 23:12:20 -0400"
     },
     "done": false
   },
@@ -5366,12 +5369,6 @@
     },
     "done": true
   },
-  "vanilla_refresh:player/hurt": {
-    "criteria": {
-      "requirement": "2025-03-27 21:51:22 -0400"
-    },
-    "done": true
-  },
   "minecraft:adventure/under_lock_and_key": {
     "criteria": {
       "under_lock_and_key": "2025-03-27 22:07:59 -0400"
@@ -5432,96 +5429,6 @@
     },
     "done": true
   },
-  "incendium:technical/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-03-31 01:07:43 -0400"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-03-31 01:07:43 -0400"
-    },
-    "done": false
-  },
-  "incendium:technical/feed_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2025-03-31 01:07:43 -0400"
-    },
-    "done": false
-  },
-  "incendium:technical/on_player_hurt": {
-    "criteria": {
-      "log_spam_fixer": "2025-03-31 01:07:43 -0400"
-    },
-    "done": false
-  },
-  "incendium:technical/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2025-03-31 01:07:43 -0400"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2025-03-31 01:07:43 -0400"
-    },
-    "done": false
-  },
-  "incendium:technical/give_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2025-03-31 01:07:43 -0400"
-    },
-    "done": false
-  },
-  "incendium:technical/on_kill": {
-    "criteria": {
-      "log_spam_fixer": "2025-03-31 01:07:43 -0400"
-    },
-    "done": false
-  },
-  "incendium:technical/multiplex_crossbow": {
-    "criteria": {
-      "log_spam_fixer": "2025-03-31 01:07:43 -0400"
-    },
-    "done": false
-  },
-  "incendium:technical/on_inventory_change": {
-    "criteria": {
-      "log_spam_fixer": "2025-03-31 01:07:43 -0400"
-    },
-    "done": false
-  },
-  "incendium:technical/holy_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-03-31 01:07:43 -0400"
-    },
-    "done": false
-  },
-  "incendium:technical/on_block": {
-    "criteria": {
-      "log_spam_fixer": "2025-03-31 01:07:43 -0400"
-    },
-    "done": false
-  },
-  "knize1007:day40": {
-    "criteria": {
-      "play25days": "2025-03-31 00:50:54 -0400"
-    },
-    "done": true
-  },
-  "vanilla_refresh:biome/windswept_forest": {
-    "criteria": {
-      "requirement": "2025-03-31 00:24:17 -0400"
-    },
-    "done": true
-  },
-  "vanilla_refresh:biome/terralith/haze_mountain": {
-    "criteria": {
-      "requirement": "2025-03-31 00:16:54 -0400"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/lightning_rod": {
     "criteria": {
       "has_copper_ingot": "2025-03-30 23:10:49 -0400"
@@ -5552,15 +5459,279 @@
     },
     "done": true
   },
-  "vanilla_refresh:biome/terralith/lush_valley": {
+  "vanilla_refresh:biome/terralith/haze_mountain": {
     "criteria": {
-      "requirement": "2025-03-31 00:43:43 -0400"
+      "requirement": "2025-03-31 00:16:54 -0400"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/windswept_forest": {
+    "criteria": {
+      "requirement": "2025-03-31 00:24:17 -0400"
     },
     "done": true
   },
   "vanilla_refresh:biome/terralith/cloud_forest": {
     "criteria": {
       "requirement": "2025-03-31 00:26:48 -0400"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/terralith/lush_valley": {
+    "criteria": {
+      "requirement": "2025-03-31 00:43:43 -0400"
+    },
+    "done": true
+  },
+  "knize1007:day40": {
+    "criteria": {
+      "play25days": "2025-03-31 00:50:54 -0400"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/nether/warped_forest": {
+    "criteria": {
+      "requirement": "2025-04-05 00:47:50 -0400"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/incendium/ash_barrens": {
+    "criteria": {
+      "requirement": "2025-04-05 00:55:52 -0400"
+    },
+    "done": true
+  },
+  "incendium:ash_barrens/root": {
+    "criteria": {
+      "requirement": "2025-04-05 00:55:52 -0400"
+    },
+    "done": true
+  },
+  "incendium:infernal_dunes/inferno/root": {
+    "criteria": {
+      "requirement": "2025-04-05 01:29:57 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_slab": {
+    "criteria": {
+      "has_chiseled_quartz_block": "2025-04-05 01:32:47 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_pillar": {
+    "criteria": {
+      "has_chiseled_quartz_block": "2025-04-05 01:32:47 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_stairs": {
+    "criteria": {
+      "has_chiseled_quartz_block": "2025-04-05 01:32:47 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_quartz_block": {
+    "criteria": {
+      "has_chiseled_quartz_block": "2025-04-05 01:32:47 -0400"
+    },
+    "done": true
+  },
+  "incendium:infernal_dunes/inferno/summon": {
+    "criteria": {
+      "requirement": "2025-04-05 01:32:47 -0400"
+    },
+    "done": true
+  },
+  "incendium:infernal_dunes/inferno/run": {
+    "criteria": {
+      "requirement": "2025-04-05 01:37:03 -0400"
+    },
+    "done": true
+  },
+  "incendium:infernal_dunes/inferno/kill": {
+    "criteria": {
+      "requirement": "2025-04-05 01:38:28 -0400"
+    },
+    "done": true
+  },
+  "incendium:withered_forest/root": {
+    "criteria": {
+      "requirement": "2025-04-07 23:12:20 -0400"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/incendium/withered_forest": {
+    "criteria": {
+      "requirement": "2025-04-07 23:12:22 -0400"
+    },
+    "done": true
+  },
+  "incendium:quartz_flats/floor_is_tears": {
+    "criteria": {
+      "requirement": "2025-04-07 23:19:00 -0400"
+    },
+    "done": true
+  },
+  "incendium:quartz_flats/ghast_buster": {
+    "criteria": {
+      "kill_ghast": "2025-04-07 23:21:16 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_planks": {
+    "criteria": {
+      "has_logs": "2025-04-07 23:23:17 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_hyphae": {
+    "criteria": {
+      "has_log": "2025-04-07 23:23:17 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_button": {
+    "criteria": {
+      "has_planks": "2025-04-07 23:23:32 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_slab": {
+    "criteria": {
+      "has_planks": "2025-04-07 23:23:32 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_stairs": {
+    "criteria": {
+      "has_planks": "2025-04-07 23:23:32 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-04-07 23:23:32 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crimson_sign": {
+    "criteria": {
+      "has_planks": "2025-04-07 23:23:32 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_door": {
+    "criteria": {
+      "has_planks": "2025-04-07 23:23:32 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-04-07 23:23:32 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crimson_fence": {
+    "criteria": {
+      "has_planks": "2025-04-07 23:23:32 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-04-07 23:23:32 -0400"
+    },
+    "done": true
+  },
+  "e-gap_addition:adventure/hold_enchanted_golden_apple": {
+    "criteria": {
+      "enchanted_golden_apple": "2025-04-07 23:59:34 -0400"
+    },
+    "done": true
+  },
+  "incendium:technical/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-08 01:18:37 -0400"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-08 01:18:37 -0400"
+    },
+    "done": false
+  },
+  "incendium:technical/feed_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-08 01:18:37 -0400"
+    },
+    "done": false
+  },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-08 01:18:37 -0400"
+    },
+    "done": false
+  },
+  "incendium:technical/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-08 01:18:37 -0400"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-08 01:18:37 -0400"
+    },
+    "done": false
+  },
+  "incendium:technical/give_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-08 01:18:37 -0400"
+    },
+    "done": false
+  },
+  "incendium:technical/on_kill": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-08 01:18:37 -0400"
+    },
+    "done": false
+  },
+  "incendium:technical/multiplex_crossbow": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-08 01:18:37 -0400"
+    },
+    "done": false
+  },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-08 01:18:37 -0400"
+    },
+    "done": false
+  },
+  "incendium:technical/holy_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-08 01:18:37 -0400"
+    },
+    "done": false
+  },
+  "incendium:technical/on_block": {
+    "criteria": {
+      "log_spam_fixer": "2025-04-08 01:18:37 -0400"
+    },
+    "done": false
+  },
+  "vanilla_refresh:player/hurt": {
+    "criteria": {
+      "requirement": "2025-04-08 01:12:43 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/throw_trident": {
+    "criteria": {
+      "shot_trident": "2025-04-08 00:30:47 -0400"
     },
     "done": true
   },
