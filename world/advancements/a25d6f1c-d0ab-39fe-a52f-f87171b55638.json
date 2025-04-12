@@ -5659,7 +5659,7 @@
   },
   "vanilla_refresh:player/hurt": {
     "criteria": {
-      "requirement": "2025-04-08 01:12:43 -0400"
+      "requirement": "2025-04-11 18:32:39 -0400"
     },
     "done": true
   },
@@ -5677,75 +5677,87 @@
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-04-08 14:26:17 -0400"
+      "log_spam_fixer": "2025-04-11 18:33:46 -0400"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-04-08 14:26:17 -0400"
+      "log_spam_fixer": "2025-04-11 18:33:46 -0400"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-04-08 14:26:17 -0400"
+      "log_spam_fixer": "2025-04-11 18:33:46 -0400"
     },
     "done": false
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2025-04-08 14:26:17 -0400"
+      "log_spam_fixer": "2025-04-11 18:33:46 -0400"
     },
     "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-04-08 14:26:17 -0400"
+      "log_spam_fixer": "2025-04-11 18:33:46 -0400"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-04-08 14:26:17 -0400"
+      "log_spam_fixer": "2025-04-11 18:33:46 -0400"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-04-08 14:26:17 -0400"
+      "log_spam_fixer": "2025-04-11 18:33:46 -0400"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2025-04-08 14:26:17 -0400"
+      "log_spam_fixer": "2025-04-11 18:33:46 -0400"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2025-04-08 14:26:17 -0400"
+      "log_spam_fixer": "2025-04-11 18:33:46 -0400"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2025-04-08 14:26:17 -0400"
+      "log_spam_fixer": "2025-04-11 18:33:46 -0400"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-04-08 14:26:17 -0400"
+      "log_spam_fixer": "2025-04-11 18:33:46 -0400"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2025-04-08 14:26:17 -0400"
+      "log_spam_fixer": "2025-04-11 18:33:46 -0400"
     },
     "done": false
+  },
+  "minecraft:adventure/very_very_frightening": {
+    "criteria": {
+      "struck_villager": "2025-04-11 18:19:00 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/lightning_rod_with_villager_no_fire": {
+    "criteria": {
+      "lightning_rod_with_villager_no_fire": "2025-04-11 18:17:42 -0400"
+    },
+    "done": true
   },
   "DataVersion": 4189
 }
