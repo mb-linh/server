@@ -3226,6 +3226,7 @@
   },
   "repurposed_structures:temples": {
     "criteria": {
+      "in_temple_nether_wasteland": "2025-04-13 02:11:19 -0400",
       "in_temple_taiga": "2025-03-14 23:39:23 -0400"
     },
     "done": false
@@ -5692,94 +5693,219 @@
     },
     "done": true
   },
-  "vanilla_refresh:player/hurt": {
-    "criteria": {
-      "requirement": "2025-04-12 01:50:11 -0400"
-    },
-    "done": true
-  },
   "vanilla_refresh:biome/windswept_hills": {
     "criteria": {
       "requirement": "2025-04-12 00:37:55 -0400"
     },
     "done": true
   },
+  "vanilla_refresh:biome/incendium/inverted_forest": {
+    "criteria": {
+      "requirement": "2025-04-12 01:54:45 -0400"
+    },
+    "done": true
+  },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2025-04-13 01:02:06 -0400"
+    },
+    "done": true
+  },
+  "repurposed_structures:mineshafts": {
+    "criteria": {
+      "in_mineshaft_warped": "2025-04-13 01:08:49 -0400"
+    },
+    "done": false
+  },
+  "knize1007:day60": {
+    "criteria": {
+      "play25days": "2025-04-13 01:19:12 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/magma_cream": {
+    "criteria": {
+      "has_blaze_powder": "2025-04-13 01:38:09 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2025-04-13 01:38:09 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_blaze_powder": "2025-04-13 01:38:09 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2025-04-13 02:03:59 -0400"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/end": {
+    "criteria": {
+      "has_ender_eye": "2025-04-13 02:03:59 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2025-04-13 02:03:59 -0400"
+    },
+    "done": true
+  },
+  "knize1007:dig_quartz": {
+    "criteria": {
+      "play25days": "2025-04-13 02:08:59 -0400"
+    },
+    "done": true
+  },
+  "vanilla_refresh:player/hurt": {
+    "criteria": {
+      "requirement": "2025-04-13 02:13:58 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_stairs": {
+    "criteria": {
+      "has_nether_bricks": "2025-04-13 02:33:52 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_slab": {
+    "criteria": {
+      "has_nether_bricks": "2025-04-13 02:33:52 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_stairs_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-04-13 02:33:52 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_fence": {
+    "criteria": {
+      "has_nether_bricks": "2025-04-13 02:33:52 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_nether_bricks": {
+    "criteria": {
+      "has_nether_bricks": "2025-04-13 02:33:52 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_nether_bricks_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-04-13 02:33:52 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_wall_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-04-13 02:33:52 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_slab_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-04-13 02:33:52 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_wall": {
+    "criteria": {
+      "has_nether_bricks": "2025-04-13 02:33:52 -0400"
+    },
+    "done": true
+  },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-04-12 02:08:56 -0400"
+      "log_spam_fixer": "2025-04-18 01:27:13 -0400"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-04-12 02:08:56 -0400"
+      "log_spam_fixer": "2025-04-18 01:27:13 -0400"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-04-12 02:08:56 -0400"
+      "log_spam_fixer": "2025-04-18 01:27:13 -0400"
     },
     "done": false
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "requirement": "2025-04-12 02:09:32 -0400",
-      "log_spam_fixer": "2025-04-12 02:08:56 -0400"
+      "log_spam_fixer": "2025-04-18 01:27:13 -0400"
     },
-    "done": true
+    "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-04-12 02:08:56 -0400"
+      "log_spam_fixer": "2025-04-18 01:27:13 -0400"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-04-12 02:08:56 -0400"
+      "log_spam_fixer": "2025-04-18 01:27:13 -0400"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-04-12 02:08:56 -0400"
+      "log_spam_fixer": "2025-04-18 01:27:13 -0400"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2025-04-12 02:08:56 -0400"
+      "log_spam_fixer": "2025-04-18 01:27:13 -0400"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2025-04-12 02:08:56 -0400"
+      "log_spam_fixer": "2025-04-18 01:27:13 -0400"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2025-04-12 02:08:56 -0400"
+      "log_spam_fixer": "2025-04-18 01:27:13 -0400"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-04-12 02:08:56 -0400"
+      "log_spam_fixer": "2025-04-18 01:27:13 -0400"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2025-04-12 02:08:56 -0400"
+      "log_spam_fixer": "2025-04-18 01:27:13 -0400"
     },
     "done": false
   },
-  "vanilla_refresh:biome/incendium/inverted_forest": {
+  "knize1007:day70": {
     "criteria": {
-      "requirement": "2025-04-12 01:54:45 -0400"
+      "play75days": "2025-04-18 00:23:36 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/turtle_helmet": {
+    "criteria": {
+      "has_turtle_scute": "2025-04-18 01:25:51 -0400"
     },
     "done": true
   },
